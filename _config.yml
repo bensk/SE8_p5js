@@ -9,7 +9,7 @@ title:               SE8 p5.js
 tagline:             Advanced CS
 url:                 http://bsk.education/SE8_p5js
 paginate:            1
-baseurl:             "/SE8_p5js"
+baseurl:             "SE8_p5js"
 
 # Assets
 #
