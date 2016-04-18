@@ -5,9 +5,9 @@ permalink:           pretty
 # relative_permalinks: true
 
 # Setup
-title:               CS11
+title:               SE8 p5.js
 tagline:             Advanced CS
-url:                 http://bsk.education/CS11
+url:                 http://bsk.education/SE8_p5js
 paginate:            1
 baseurl:             "/SE8_p5js"
 
