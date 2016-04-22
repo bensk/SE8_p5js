@@ -17,4 +17,4 @@ function draw() {
 }
 </script>
 
-Testing ia Writer for this.
+Ok, that’s pretty cool. 

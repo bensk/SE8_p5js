@@ -28,3 +28,5 @@ function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
 </script>
+
+So, this might hurt your eyes. 
