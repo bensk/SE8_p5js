@@ -8,10 +8,10 @@ Hello there...
 
 <script type="text/p5">
 function setup() {
-  createCanvas(100, 100);
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-  background(255, 0, 200);
+  background(mouseX, mouseY, mouseX-mouseY);
 }
 </script>
