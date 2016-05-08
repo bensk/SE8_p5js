@@ -6,7 +6,7 @@ date: "2016-04-18 13:05"
 
 Hello there...
 
-<script type="text/p5" data-autoplay>
+<script type="text/p5" data-autoplay data-preview-width="100%">
 // Try moving your mouse...
 function setup() {
   createCanvas(windowWidth, windowHeight);
