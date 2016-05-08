@@ -3,7 +3,7 @@ layout: "page"
 title: "Crazy Framerate"
 ---
 
-<script type="text/p5">   
+<script type="text/p5" data-preview-width="400">   
 function setup() {
   createCanvas(windowWidth,windowHeight);
 
