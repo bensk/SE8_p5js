@@ -17,4 +17,4 @@ function draw() {
 }
 </script>
 
-Ok, that’s pretty cool. 
+Ok, that’s pretty cool.

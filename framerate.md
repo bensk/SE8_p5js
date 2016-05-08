@@ -29,4 +29,4 @@ function windowResized() {
 }
 </script>
 
-So, this might hurt your eyes. 
+So, this might hurt your eyes.
