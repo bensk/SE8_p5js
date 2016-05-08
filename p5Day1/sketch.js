@@ -12,10 +12,15 @@ function draw() {
 	textFont("Proxima Nova");
 	textStyle('bold');
 	fill(`#FF4296`);
-	if (mouseIsPressed)
-		text(aim, mouseX, mouseY, windowWidth)
-	else
+	if (mouseIsPressed) {
+		text(aim, mouseX, mouseY, windowWidth);
+		var do_now = "Uh oh...where'd the Do Now go?"
+		textAlign('center')
+
+	} else {
 		text(aim, 10, 100, windowWidth);
+		var do_now = "Do Now: How many programming langauges have you learned? Which is your favorite, and why?"
+	}
 	textSize(36)
 	textStyle('bold')
 	fill('#424242')
