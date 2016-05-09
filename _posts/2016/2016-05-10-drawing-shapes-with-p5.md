@@ -22,7 +22,7 @@ In p5:  `line(x1, y1, x2, y2);`
 ✱ four **parameters** in parenthesis, separated by commas    
 ✱ lines end with semicolon `;`, just like JavaScript.    
 
-<span class="mega-octicon octicon-bug"></span> Try to draw a line with a 45° angle.
+<span class="mega-octicon octicon-bug"></span> Try to draw a line at an angle that _isn't_ 90° or 180° (not vertical or horizontal).
 
 ### `rect()`
 In p5, rectangles are defined by the **top left corner**, followed by a **width** and a **height**.
