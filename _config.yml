@@ -6,7 +6,7 @@ permalink:           pretty
 
 # Setup
 title:               SE8 p5.js
-tagline:             
+tagline:
 url:                 http://bsk.education/SE8_p5js
 paginate:            1
 baseurl:             "/SE8_p5js"
@@ -33,6 +33,7 @@ github:
 gems:
     - jemoji
     - jekyll-archives
+    - jekyll-paginate
 
 jekyll-archives:
   enabled: []
