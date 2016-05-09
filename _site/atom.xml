@@ -4,7 +4,7 @@
  <title>SE8 p5.js</title>
  <link href="http://bsk.education/SE8_p5js/atom.xml" rel="self"/>
  <link href="http://bsk.education/SE8_p5js/"/>
- <updated>2016-05-09T18:35:18-04:00</updated>
+ <updated>2016-05-09T18:36:05-04:00</updated>
  <id>http://bsk.education/SE8_p5js</id>
  <author>
    <name>Ben Samuels-Kalow</name>
@@ -74,7 +74,7 @@ function draw() {
 
 &lt;script type=&quot;text/p5&quot; data-autoplay=&quot;&quot; data-preview-width=&quot;700&quot;&gt;
 var aim = &quot;Aim: How can we begin learning a new programming language?&quot;;
-var do_now = &quot;Do Now: How many programming langauges have you learned? Which is your favorite, and why?&quot;
+var do_now = &quot;Do Now: How many programming languages have you learned? Which is your favorite, and why?&quot;
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
@@ -134,7 +134,7 @@ function draw() {
 &lt;h2 id=&quot;exit-slip&quot;&gt;Exit Slip!&lt;/h2&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;What happens if you change the numbers?&lt;/li&gt;
+  &lt;li&gt;What happens if you change the numbers on line 6: &lt;code class=&quot;highlighter-rouge&quot;&gt;rect(50,50,80,50);&lt;/code&gt;?&lt;/li&gt;
   &lt;li&gt;How could you draw a square?&lt;/li&gt;
   &lt;li&gt;How do you write a comment in p5?&lt;/li&gt;
 &lt;/ol&gt;
