@@ -24,8 +24,14 @@ In p5:  `line(x1, y1, x2, y2);`
 
 <span class="mega-octicon octicon-bug"></span> Try to draw a line with a 45° angle.
 
-
 ### `rect()`
+In p5, rectangles are defined by the **top left corner**, followed by a **width** and a **height**.
+`rect(x, y, width, height);`    
+✱ lower case ‘rect’    
+✱ four ‘parameters’ in parenthesis    
+✱ lines end with semicolon `;`, just like JavaScript.    
+
+
 
 ### `ellipse()`
 
