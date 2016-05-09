@@ -22,12 +22,14 @@ In p5:  `line(x1, y1, x2, y2);`
 ✱ four **parameters** in parenthesis, separated by commas    
 ✱ lines end with semicolon `;`, just like JavaScript.    
 
-<span class="mega-octicon octicon-keyboard"></span> Try to draw a line with a 45° angle.
+<span class="mega-octicon octicon-bug"></span> Try to draw a line with a 45° angle.
 
 
 ### `rect()`
 
 ### `ellipse()`
+
+What if I combine `line`s, `rect`angles, and `ellipse`s?
 
 <script type="text/p5" data-autoplay data-preview-width="200" data-preview-height="200">
 function setup() {
