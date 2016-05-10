@@ -4,7 +4,7 @@ title: "Drawing Shapes with p5"
 date: "2016-05-10 18:18"
 ---
 
-## p5 IDE
+## <span style="color: #ED1F5E">p5</span> IDE
 <span class="mega-octicon octicon-search"></span> for <span style="color: #ED1F5E">p5</span>
 ![]({{ site.baseurl }}/images/p5icon.png)
 
@@ -12,7 +12,7 @@ You should see this:
 
 ![]({{ site.baseurl }}/images/p5Editor.png)
 
-This is an IDE (Integrated Development Environment). We used **PyCharm** for **Python**, and we will use **p5** for, well...**p5**.
+This is an IDE (Integrated Development Environment). We used **PyCharm** for **Python**, and we will use **<span style="color: #ED1F5E">p5**</span> for, well...**<span style="color: #ED1F5E">p5</span>**.
 
 ## Fun With Shapes
 
