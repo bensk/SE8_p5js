@@ -12,7 +12,7 @@ You should see this:
 
 ![]({{ site.baseurl }}/images/p5Editor.png)
 
-This is an IDE (Integrated Development Environment). We used **PyCharm** for **Python**, and we will use **<span style="color: #ED1F5E">p5**</span> for, well...**<span style="color: #ED1F5E">p5</span>**.
+This is an IDE (Integrated Development Environment). We used **PyCharm** for **Python**, and we will use **<span style="color: #ED1F5E">p5</span>** for, well...**<span style="color: #ED1F5E">p5</span>**.
 
 ## Fun With Shapes
 

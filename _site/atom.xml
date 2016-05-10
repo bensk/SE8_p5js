@@ -4,7 +4,7 @@
  <title>SE8 p5.js</title>
  <link href="http://bsk.education/SE8_p5js/atom.xml" rel="self"/>
  <link href="http://bsk.education/SE8_p5js/"/>
- <updated>2016-05-09T21:39:02-04:00</updated>
+ <updated>2016-05-09T21:39:38-04:00</updated>
  <id>http://bsk.education/SE8_p5js</id>
  <author>
    <name>Ben Samuels-Kalow</name>
@@ -58,7 +58,7 @@ function draw() {
 
 &lt;p&gt;&lt;img src=&quot;/SE8_p5js/images/p5Editor.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;This is an IDE (Integrated Development Environment). We used &lt;strong&gt;PyCharm&lt;/strong&gt; for &lt;strong&gt;Python&lt;/strong&gt;, and we will use &lt;strong&gt;&lt;span style=&quot;color: #ED1F5E&quot;&gt;p5**&lt;/span&gt; for, well…&lt;/strong&gt;&lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;**.&lt;/p&gt;
+&lt;p&gt;This is an IDE (Integrated Development Environment). We used &lt;strong&gt;PyCharm&lt;/strong&gt; for &lt;strong&gt;Python&lt;/strong&gt;, and we will use &lt;strong&gt;&lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;&lt;/strong&gt; for, well…&lt;strong&gt;&lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;fun-with-shapes&quot;&gt;Fun With Shapes&lt;/h2&gt;
 
