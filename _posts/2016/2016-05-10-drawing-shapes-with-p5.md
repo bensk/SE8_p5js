@@ -6,7 +6,7 @@ date: "2016-05-10 18:18"
 
 ## p5 IDE
 
-![]({{ site.baseurl }}_images/p5icon.png)
+![]({{ site.baseurl }}/_images/p5icon.png)
 
 ![](https://cloud.githubusercontent.com/assets/7450756/14081649/c1bb82d6-f4d9-11e5-9e38-57b4b10f4dc2.png)
 
