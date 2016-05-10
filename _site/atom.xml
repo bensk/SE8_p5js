@@ -4,7 +4,7 @@
  <title>SE8 p5.js</title>
  <link href="http://bsk.education/SE8_p5js/atom.xml" rel="self"/>
  <link href="http://bsk.education/SE8_p5js/"/>
- <updated>2016-05-09T21:36:07-04:00</updated>
+ <updated>2016-05-09T21:37:07-04:00</updated>
  <id>http://bsk.education/SE8_p5js</id>
  <author>
    <name>Ben Samuels-Kalow</name>
@@ -131,7 +131,7 @@ function draw() {
 
 &lt;p&gt;OK, I’m not a great artist. But we’re getting somewhere.&lt;/p&gt;
 
-&lt;p&gt;You are going to use the graph paper on page 3 of your packet to plot a drawing, and begin making it in &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5✱&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;mega-octicon octicon-bug&quot;&gt;&lt;/span&gt; Use the graph paper on page 3 of your packet to plot a drawing, and begin making it in &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5✱&lt;/span&gt;.&lt;/p&gt;
 
 &lt;p&gt;Good luck!&lt;/p&gt;
 

@@ -87,7 +87,7 @@ function draw() {
 
 OK, I'm not a great artist. But we're getting somewhere.
 
-You are going to use the graph paper on page 3 of your packet to plot a drawing, and begin making it in <span style="color: #ED1F5E">p5✱</span>.
+<span class="mega-octicon octicon-bug"></span> Use the graph paper on page 3 of your packet to plot a drawing, and begin making it in <span style="color: #ED1F5E">p5✱</span>.
 
 Good luck!
 
