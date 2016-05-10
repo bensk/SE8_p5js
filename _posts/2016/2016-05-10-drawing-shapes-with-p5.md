@@ -18,7 +18,9 @@ This is an IDE (Integrated Development Environment). We used **PyCharm** for **P
 
 Today, we're going to learn how to draw three shapes: `line`s, `rect`angles, and `ellipse`s.
 
-(Also, `point`, but that one's kind boring. Go ahead and try it. Turn on a single pixel:
+(Also, `point`, but that one's kind boring.
+
+<span class="mega-octicon octicon-bug"></span> Go ahead and try it. Turn on a single pixel:
 
 ```javascript
 point(42,42)
@@ -94,4 +96,4 @@ Good luck!
 <span class="mega-octicon octicon-thumbsup" style="font-size: 144px"></span>
 
 ## Exit Slip
-If my canvas is 300px wide and 200px tall, write <span style="color: #ED1F5E">p5</span> code to draw a square at the **CENTER** of the canvas. 
+If my canvas is 300px wide and 200px tall, write <span style="color: #ED1F5E">p5</span> code to draw a square at the **CENTER** of the canvas.
