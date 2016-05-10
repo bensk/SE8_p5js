@@ -28,6 +28,9 @@
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
     <!-- p5.js embed -->
     <script src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
+    <!-- Octicon -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css">
 </head>
 
 
@@ -117,18 +120,75 @@
       <div class="post">
   <h1 class="post-title">Drawing Shapes with p5</h1>
   <span class="post-date">10 May 2016</span>
-  <script type="text/p5" data-autoplay="" data-preview-width="200" data-preview-height="200">
+  <h2 id="fun-with-shapes">Fun With Shapes</h2>
+
+<p>Today, we’re going to learn how to draw three shapes: <code class="highlighter-rouge">line</code>s, <code class="highlighter-rouge">rect</code>angles, and <code class="highlighter-rouge">ellipse</code>s.</p>
+
+<p>(Also, <code class="highlighter-rouge">point</code>, but that one’s kind boring. Go ahead and try it. Turn on a single pixel:</p>
+
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="nx">point</span><span class="p">(</span><span class="mi">42</span><span class="p">,</span><span class="mi">42</span><span class="p">)</span>
+</code></pre>
+</div>
+
+<h3 id="line">| <code class="highlighter-rouge">line()</code></h3>
+<p>A line is defined by <strong>two points</strong>:  A and B
+In p5:  <code class="highlighter-rouge">line(x1, y1, x2, y2);</code></p>
+
+<p>✱ lower case ‘line’  <br />
+✱ four <strong>parameters</strong> in parenthesis, separated by commas  <br />
+✱ lines end with semicolon <code class="highlighter-rouge">;</code>, just like JavaScript.</p>
+
+<p><span class="mega-octicon octicon-bug"></span> Try to draw a line at an angle that <em>isn’t</em> 90° or 180° (not vertical or horizontal).</p>
+
+<h3 id="rect">▭ <code class="highlighter-rouge">rect()</code></h3>
+<p>In p5, rectangles are defined by the <strong>top left corner</strong>, followed by a <strong>width</strong> and a <strong>height</strong>.</p>
+
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="nx">rect</span><span class="p">(</span><span class="nx">x</span><span class="p">,</span> <span class="nx">y</span><span class="p">,</span> <span class="nx">width</span><span class="p">,</span> <span class="nx">height</span><span class="p">);</span>
+</code></pre>
+</div>
+
+<p>✱ lower case ‘rect’  <br />
+✱ four ‘parameters’ in parenthesis  <br />
+✱ lines end with semicolon <code class="highlighter-rouge">;</code>, just like JavaScript.</p>
+
+<p>You can also define them using <strong>corners</strong>: the <em>top left</em> and <em>bottom right</em> point.</p>
+
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="nx">rectMode</span><span class="p">(</span><span class="nx">CORNERS</span><span class="p">);</span>
+<span class="c1">// What happens if you put rectMode(CORNERS) on line 2?</span>
+<span class="nx">rect</span><span class="p">(</span><span class="nx">x1</span><span class="p">,</span> <span class="nx">y1</span><span class="p">,</span> <span class="nx">x2</span><span class="p">,</span> <span class="nx">y2</span><span class="p">);</span>
+<span class="nx">Two</span> <span class="nx">lines</span> <span class="nx">of</span> <span class="nx">code</span>
+</code></pre>
+</div>
+
+<h3 id="ellipse">⬭ <code class="highlighter-rouge">ellipse()</code></h3>
+<p>An <strong>ellipse</strong> is an oval. For the purposes of this class (before you’ve studied <a href="https://www.google.com/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#q=conic%20sections" title="Google it!">conic sections</a>), all we need to know is that a circle is actually a special kind of ellipse, and <code class="highlighter-rouge">ellipse()</code> is the command that will let us draw <strong>round</strong> shapes.</p>
+
+<p>In p5, ellipses are defined by a <strong>center</strong> coordinate, a <strong>width</strong>, a <strong>height</strong>.</p>
+
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="nx">ellipse</span><span class="p">(</span><span class="nx">x</span><span class="p">,</span> <span class="nx">y</span><span class="p">,</span> <span class="nx">width</span><span class="p">,</span> <span class="nx">height</span><span class="p">)</span>
+</code></pre>
+</div>
+
+<p><span class="mega-octicon octicon-bug"></span> Use this to make a circle. In a comment (<code class="highlighter-rouge">//</code>), what do you notice about the <code class="highlighter-rouge">width</code> and <code class="highlighter-rouge">height</code> that make a circle?</p>
+
+<h3 id="drawing-time">Drawing time!</h3>
+
+<p>What if I combine <code class="highlighter-rouge">line</code>s, <code class="highlighter-rouge">rect</code>angles, and <code class="highlighter-rouge">ellipse</code>s?
+<!-- p5 Embed -->
+<script type="text/p5" data-autoplay="" data-preview-width="200" data-preview-height="200">
 function setup() {
 	createCanvas(200, 200)
-}
+}</script></p>
 
-function draw() {
+<p>function draw() {
+	line(78, 5, 78, 200)
+	line(82, 5, 82, 200)
 	rect(5, 5, 150, 75);
-	line(5, 5, 200, 200)
-	ellipse(80, 80, 25, 25);
+	rect(50, 40, 60, 30);
+	ellipse(80, 80, 30, 15);
 }
-</script>
-
+&lt;/script&gt;
+<!--  --></p>
 
 </div>
 

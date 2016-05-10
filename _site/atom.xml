@@ -4,7 +4,7 @@
  <title>SE8 p5.js</title>
  <link href="http://bsk.education/SE8_p5js/atom.xml" rel="self"/>
  <link href="http://bsk.education/SE8_p5js/"/>
- <updated>2016-05-09T18:36:05-04:00</updated>
+ <updated>2016-05-09T20:55:32-04:00</updated>
  <id>http://bsk.education/SE8_p5js</id>
  <author>
    <name>Ben Samuels-Kalow</name>
@@ -50,18 +50,75 @@ function draw() {
    <link href="http://bsk.education/SE8_p5js/2016/05/10/drawing-shapes-with-p5/"/>
    <updated>2016-05-10T18:18:00-04:00</updated>
    <id>http://bsk.education/SE8_p5js/2016/05/10/drawing-shapes-with-p5</id>
-   <content type="html">&lt;script type=&quot;text/p5&quot; data-autoplay=&quot;&quot; data-preview-width=&quot;200&quot; data-preview-height=&quot;200&quot;&gt;
+   <content type="html">&lt;h2 id=&quot;fun-with-shapes&quot;&gt;Fun With Shapes&lt;/h2&gt;
+
+&lt;p&gt;Today, we’re going to learn how to draw three shapes: &lt;code class=&quot;highlighter-rouge&quot;&gt;line&lt;/code&gt;s, &lt;code class=&quot;highlighter-rouge&quot;&gt;rect&lt;/code&gt;angles, and &lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse&lt;/code&gt;s.&lt;/p&gt;
+
+&lt;p&gt;(Also, &lt;code class=&quot;highlighter-rouge&quot;&gt;point&lt;/code&gt;, but that one’s kind boring. Go ahead and try it. Turn on a single pixel:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;point&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;line&quot;&gt;| &lt;code class=&quot;highlighter-rouge&quot;&gt;line()&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;A line is defined by &lt;strong&gt;two points&lt;/strong&gt;:  A and B
+In p5:  &lt;code class=&quot;highlighter-rouge&quot;&gt;line(x1, y1, x2, y2);&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;✱ lower case ‘line’  &lt;br /&gt;
+✱ four &lt;strong&gt;parameters&lt;/strong&gt; in parenthesis, separated by commas  &lt;br /&gt;
+✱ lines end with semicolon &lt;code class=&quot;highlighter-rouge&quot;&gt;;&lt;/code&gt;, just like JavaScript.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;mega-octicon octicon-bug&quot;&gt;&lt;/span&gt; Try to draw a line at an angle that &lt;em&gt;isn’t&lt;/em&gt; 90° or 180° (not vertical or horizontal).&lt;/p&gt;
+
+&lt;h3 id=&quot;rect&quot;&gt;▭ &lt;code class=&quot;highlighter-rouge&quot;&gt;rect()&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;In p5, rectangles are defined by the &lt;strong&gt;top left corner&lt;/strong&gt;, followed by a &lt;strong&gt;width&lt;/strong&gt; and a &lt;strong&gt;height&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;rect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;✱ lower case ‘rect’  &lt;br /&gt;
+✱ four ‘parameters’ in parenthesis  &lt;br /&gt;
+✱ lines end with semicolon &lt;code class=&quot;highlighter-rouge&quot;&gt;;&lt;/code&gt;, just like JavaScript.&lt;/p&gt;
+
+&lt;p&gt;You can also define them using &lt;strong&gt;corners&lt;/strong&gt;: the &lt;em&gt;top left&lt;/em&gt; and &lt;em&gt;bottom right&lt;/em&gt; point.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;rectMode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CORNERS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// What happens if you put rectMode(CORNERS) on line 2?&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;rect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Two&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lines&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;ellipse&quot;&gt;⬭ &lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse()&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;An &lt;strong&gt;ellipse&lt;/strong&gt; is an oval. For the purposes of this class (before you’ve studied &lt;a href=&quot;https://www.google.com/webhp?sourceid=chrome-instant&amp;amp;ion=1&amp;amp;espv=2&amp;amp;ie=UTF-8#q=conic%20sections&quot; title=&quot;Google it!&quot;&gt;conic sections&lt;/a&gt;), all we need to know is that a circle is actually a special kind of ellipse, and &lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse()&lt;/code&gt; is the command that will let us draw &lt;strong&gt;round&lt;/strong&gt; shapes.&lt;/p&gt;
+
+&lt;p&gt;In p5, ellipses are defined by a &lt;strong&gt;center&lt;/strong&gt; coordinate, a &lt;strong&gt;width&lt;/strong&gt;, a &lt;strong&gt;height&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;ellipse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;span class=&quot;mega-octicon octicon-bug&quot;&gt;&lt;/span&gt; Use this to make a circle. In a comment (&lt;code class=&quot;highlighter-rouge&quot;&gt;//&lt;/code&gt;), what do you notice about the &lt;code class=&quot;highlighter-rouge&quot;&gt;width&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;height&lt;/code&gt; that make a circle?&lt;/p&gt;
+
+&lt;h3 id=&quot;drawing-time&quot;&gt;Drawing time!&lt;/h3&gt;
+
+&lt;p&gt;What if I combine &lt;code class=&quot;highlighter-rouge&quot;&gt;line&lt;/code&gt;s, &lt;code class=&quot;highlighter-rouge&quot;&gt;rect&lt;/code&gt;angles, and &lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse&lt;/code&gt;s?
+&lt;!-- p5 Embed --&gt;
+&lt;script type=&quot;text/p5&quot; data-autoplay=&quot;&quot; data-preview-width=&quot;200&quot; data-preview-height=&quot;200&quot;&gt;
 function setup() {
 	createCanvas(200, 200)
-}
+}&lt;/script&gt;&lt;/p&gt;
 
-function draw() {
+&lt;p&gt;function draw() {
+	line(78, 5, 78, 200)
+	line(82, 5, 82, 200)
 	rect(5, 5, 150, 75);
-	line(5, 5, 200, 200)
-	ellipse(80, 80, 25, 25);
+	rect(50, 40, 60, 30);
+	ellipse(80, 80, 30, 15);
 }
-&lt;/script&gt;
-
+&amp;lt;/script&amp;gt;
+&lt;!--  --&gt;&lt;/p&gt;
 </content>
  </entry>
  

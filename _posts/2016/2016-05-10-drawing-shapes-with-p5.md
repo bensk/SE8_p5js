@@ -14,7 +14,7 @@ Today, we're going to learn how to draw three shapes: `line`s, `rect`angles, and
 point(42,42)
 ```
 
-### `line()`
+### | `line()`
 A line is defined by **two points**:  A and B
 In p5:  `line(x1, y1, x2, y2);`
 
@@ -24,19 +24,43 @@ In p5:  `line(x1, y1, x2, y2);`
 
 <span class="mega-octicon octicon-bug"></span> Try to draw a line at an angle that _isn't_ 90° or 180° (not vertical or horizontal).
 
-### `rect()`
+### ▭ `rect()`
 In p5, rectangles are defined by the **top left corner**, followed by a **width** and a **height**.
-`rect(x, y, width, height);`    
+
+```javascript
+rect(x, y, width, height);
+```
+
 ✱ lower case ‘rect’    
 ✱ four ‘parameters’ in parenthesis    
 ✱ lines end with semicolon `;`, just like JavaScript.    
 
+You can also define them using **corners**: the _top left_ and _bottom right_ point.
 
+```javascript
+rectMode(CORNERS);
+// What happens if you put rectMode(CORNERS) on line 2?
+rect(x1, y1, x2, y2);
+Two lines of code
+```
 
-### `ellipse()`
+### ⬭ `ellipse()`
+An **ellipse** is an oval. For the purposes of this class (before you've studied [conic sections][c37a8208]), all we need to know is that a circle is actually a special kind of ellipse, and `ellipse()` is the command that will let us draw **round** shapes.
+
+  [c37a8208]: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=conic%20sections "Google it!"
+
+In p5, ellipses are defined by a **center** coordinate, a **width**, a **height**.
+
+```javascript
+ellipse(x, y, width, height)
+```
+
+<span class="mega-octicon octicon-bug"></span> Use this to make a circle. In a comment (`//`), what do you notice about the `width` and `height` that make a circle?
+
+### Drawing time!
 
 What if I combine `line`s, `rect`angles, and `ellipse`s?
-
+<!-- p5 Embed -->
 <script type="text/p5" data-autoplay data-preview-width="200" data-preview-height="200">
 function setup() {
 	createCanvas(200, 200)
@@ -50,3 +74,4 @@ function draw() {
 	ellipse(80, 80, 30, 15);
 }
 </script>
+<!--  -->

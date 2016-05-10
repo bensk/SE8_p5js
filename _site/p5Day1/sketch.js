@@ -19,9 +19,9 @@ function draw() {
 
 	} else {
 		text(aim, 10, 100, windowWidth);
-		var do_now = "Do Now: How many programming langauges have you learned? Which is your favorite, and why?"
+		var do_now = "Do Now: How many programming languages have you learned? Which is your favorite, and why?"
 	}
-	textSize(36)
+	textSize(60)
 	textStyle('bold')
 	fill('#424242')
 	text(do_now, 10, 600, windowWidth, windowHeight)
