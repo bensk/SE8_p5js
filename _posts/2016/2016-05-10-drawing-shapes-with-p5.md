@@ -60,7 +60,7 @@ ellipse(x, y, width, height)
 ### Drawing time!
 
 What if I combine `line`s, `rect`angles, and `ellipse`s?
-<!-- p5 Embed -->
+
 <script type="text/p5" data-autoplay data-preview-width="200" data-preview-height="200">
 function setup() {
 	createCanvas(200, 200)
@@ -74,4 +74,3 @@ function draw() {
 	ellipse(80, 80, 30, 15);
 }
 </script>
-<!--  -->
