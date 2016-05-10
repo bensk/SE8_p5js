@@ -5,14 +5,14 @@ date: "2016-05-10 18:18"
 ---
 
 ## p5 IDE
-<span class="mega-octicon octicon-search"></span> for p5
+<span class="mega-octicon octicon-search"></span> for <span style="color: #ED1F5E">p5</span>
 ![]({{ site.baseurl }}/images/p5icon.png)
 
 You should see this:
 
 ![]({{ site.baseurl }}/images/p5Editor.png)
 
-This is an IDE (Integrated Development Environment). We used **PyCharm** for **Python**, and we will use **p5** for, well...**p5**. 
+This is an IDE (Integrated Development Environment). We used **PyCharm** for **Python**, and we will use **p5** for, well...**p5**.
 
 ## Fun With Shapes
 
@@ -26,7 +26,7 @@ point(42,42)
 
 ### | `line()`
 A line is defined by **two points**:  A and B
-In p5:  `line(x1, y1, x2, y2);`
+In <span style="color: #ED1F5E">p5</span>:  `line(x1, y1, x2, y2);`
 
 ✱ lower case ‘line’    
 ✱ four **parameters** in parenthesis, separated by commas    
@@ -35,7 +35,7 @@ In p5:  `line(x1, y1, x2, y2);`
 <span class="mega-octicon octicon-bug"></span> Try to draw a line at an angle that _isn't_ 90° or 180° (not vertical or horizontal).
 
 ### ▭ `rect()`
-In p5, rectangles are defined by the **top left corner**, followed by a **width** and a **height**.
+In <span style="color: #ED1F5E">p5</span>, rectangles are defined by the **top left corner**, followed by a **width** and a **height**.
 
 ```javascript
 rect(x, y, width, height);
@@ -59,7 +59,7 @@ An **ellipse** is an oval. For the purposes of this class (before you've studied
 
   [c37a8208]: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=conic%20sections "Google it!"
 
-In p5, ellipses are defined by a **center** coordinate, a **width**, a **height**.
+In <span style="color: #ED1F5E">p5</span>, ellipses are defined by a **center** coordinate, a **width**, a **height**.
 
 ```javascript
 ellipse(x, y, width, height)
@@ -87,7 +87,7 @@ function draw() {
 
 OK, I'm not a great artist. But we're getting somewhere.
 
-You are going to use the graph paper on page 3 of your packet to plot a drawing, and begin making it in p5.
+You are going to use the graph paper on page 3 of your packet to plot a drawing, and begin making it in <span style="color: #ED1F5E">p5✱</span>.
 
 Good luck!
 

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <title>
+         SE8 p5.js &middot;  
+    </title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/SE8_p5js/public/css/poole.css">
+    <link rel="stylesheet" href="/SE8_p5js/public/css/syntax.css">
+    <link rel="stylesheet" href="/SE8_p5js/public/css/hyde.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+    <link href='https://fonts.googleapis.com/css?family=Fugaz+One|Source+Sans+Pro:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/SE8_p5jspublic/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/SE8_p5js/public/favicon.png">
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+    <!-- p5.js embed -->
+    <script src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
+    <!-- Octicon -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css">
+</head>
+
+
+  <body class="theme-base-0e">
+
+    <div class="sidebar">
+  <div class="container sidebar">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/SE8_p5js">
+          SE8 p5.js
+        </a>
+      </h1>
+      <p class="lead"></p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <!-- <a class="sidebar-nav-item" href="/SE8_p5js">Home</a> -->
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/SE8_p5js//framerate/">Crazy Framerate</a>
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+<!-- Post nav -->
+<hr />
+<h2>Lessons</h2>
+
+    <p class="lead">May 11, 2016<br>
+      <a href="/SE8_p5js//2016/05/11/dice/">Dice</a>
+
+  
+    <p class="lead">May 10, 2016<br>
+      <a href="/SE8_p5js//2016/05/10/drawing-shapes-with-p5/">Drawing Shapes with p5</a>
+
+  
+    <p class="lead">May 09, 2016<br>
+      <a href="/SE8_p5js//2016/05/09/day-1/">Day 1</a>
+
+  
+    <p class="lead">April 18, 2016<br>
+      <a href="/SE8_p5js//2016/04/18/hello-world/">Hello World</a>
+
+  
+</p>
+<!--  -->
+      <!-- <a class="sidebar-nav-item" href="https://github.com/bensk/archive/v2.0.0.zip">Download</a>
+      <a class="sidebar-nav-item" href="https://github.com/bensk">GitHub project</a>
+      <span class="sidebar-nav-item">Currently v2.0.0</span> -->
+    </nav>
+
+    <!-- <p>&copy; 2016. All rights reserved.</p> -->
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="posts">
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/SE8_p5js//2016/05/10/drawing-shapes-with-p5/">
+        Drawing Shapes with p5
+      </a>
+    </h1>
+
+    <span class="post-date">10 May 2016</span>
+
+    <h2 id="p5-ide">p5 IDE</h2>
+<p><span class="mega-octicon octicon-search"></span> for <span style="color: #ED1F5E">p5</span>
+<img src="/SE8_p5js/images/p5icon.png" alt="" /></p>
+
+<p>You should see this:</p>
+
+<p><img src="/SE8_p5js/images/p5Editor.png" alt="" /></p>
+
+<p>This is an IDE (Integrated Development Environment). We used <strong>PyCharm</strong> for <strong>Python</strong>, and we will use <strong>p5</strong> for, well…<strong>p5</strong>.</p>
+
+<h2 id="fun-with-shapes">Fun With Shapes</h2>
+
+<p>Today, we’re going to learn how to draw three shapes: <code class="highlighter-rouge">line</code>s, <code class="highlighter-rouge">rect</code>angles, and <code class="highlighter-rouge">ellipse</code>s.</p>
+
+<p>(Also, <code class="highlighter-rouge">point</code>, but that one’s kind boring. Go ahead and try it. Turn on a single pixel:</p>
+
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="nx">point</span><span class="p">(</span><span class="mi">42</span><span class="p">,</span><span class="mi">42</span><span class="p">)</span>
+</code></pre>
+</div>
+
+<h3 id="line">| <code class="highlighter-rouge">line()</code></h3>
+<p>A line is defined by <strong>two points</strong>:  A and B
+In <span style="color: #ED1F5E">p5</span>:  <code class="highlighter-rouge">line(x1, y1, x2, y2);</code></p>
+
+<p>✱ lower case ‘line’  <br />
+✱ four <strong>parameters</strong> in parenthesis, separated by commas  <br />
+✱ lines end with semicolon <code class="highlighter-rouge">;</code>, just like JavaScript.</p>
+
+<p><span class="mega-octicon octicon-bug"></span> Try to draw a line at an angle that <em>isn’t</em> 90° or 180° (not vertical or horizontal).</p>
+
+<h3 id="rect">▭ <code class="highlighter-rouge">rect()</code></h3>
+<p>In <span style="color: #ED1F5E">p5</span>, rectangles are defined by the <strong>top left corner</strong>, followed by a <strong>width</strong> and a <strong>height</strong>.</p>
+
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="nx">rect</span><span class="p">(</span><span class="nx">x</span><span class="p">,</span> <span class="nx">y</span><span class="p">,</span> <span class="nx">width</span><span class="p">,</span> <span class="nx">height</span><span class="p">);</span>
+</code></pre>
+</div>
+
+<p>✱ lower case ‘rect’  <br />
+✱ four ‘parameters’ in parenthesis  <br />
+✱ lines end with semicolon <code class="highlighter-rouge">;</code>, just like JavaScript.</p>
+
+<p>You can also define them using <strong>corners</strong>: the <em>top left</em> and <em>bottom right</em> point.</p>
+
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="nx">rectMode</span><span class="p">(</span><span class="nx">CORNERS</span><span class="p">);</span>
+<span class="c1">// What happens if you put rectMode(CORNERS) on line 2?</span>
+<span class="nx">rect</span><span class="p">(</span><span class="nx">x1</span><span class="p">,</span> <span class="nx">y1</span><span class="p">,</span> <span class="nx">x2</span><span class="p">,</span> <span class="nx">y2</span><span class="p">);</span>
+<span class="nx">Two</span> <span class="nx">lines</span> <span class="nx">of</span> <span class="nx">code</span>
+</code></pre>
+</div>
+
+<h3 id="ellipse">⬭ <code class="highlighter-rouge">ellipse()</code></h3>
+<p>An <strong>ellipse</strong> is an oval. For the purposes of this class (before you’ve studied <a href="https://www.google.com/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#q=conic%20sections" title="Google it!">conic sections</a>), all we need to know is that a circle is actually a special kind of ellipse, and <code class="highlighter-rouge">ellipse()</code> is the command that will let us draw <strong>round</strong> shapes.</p>
+
+<p>In <span style="color: #ED1F5E">p5</span>, ellipses are defined by a <strong>center</strong> coordinate, a <strong>width</strong>, a <strong>height</strong>.</p>
+
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="nx">ellipse</span><span class="p">(</span><span class="nx">x</span><span class="p">,</span> <span class="nx">y</span><span class="p">,</span> <span class="nx">width</span><span class="p">,</span> <span class="nx">height</span><span class="p">)</span>
+</code></pre>
+</div>
+
+<p><span class="mega-octicon octicon-bug"></span> Use this to make a circle. In a comment (<code class="highlighter-rouge">//</code>), what do you notice about the <code class="highlighter-rouge">width</code> and <code class="highlighter-rouge">height</code> that make a circle?</p>
+
+<h3 id="drawing-time">Drawing time!</h3>
+
+<p>What if I combine <code class="highlighter-rouge">line</code>s, <code class="highlighter-rouge">rect</code>angles, and <code class="highlighter-rouge">ellipse</code>s? What can I make?</p>
+
+<script type="text/p5" data-preview-width="200" data-preview-height="200">
+function setup() {
+	createCanvas(200, 200)
+}
+
+function draw() {
+	line(78, 5, 78, 200)
+	line(82, 5, 82, 200)
+	rect(5, 5, 150, 75);
+	rect(50, 40, 60, 30);
+	ellipse(80, 80, 30, 15);
+}
+</script>
+
+<p>OK, I’m not a great artist. But we’re getting somewhere.</p>
+
+<p>You are going to use the graph paper on page 3 of your packet to plot a drawing, and begin making it in <span style="color: #ED1F5E">p5✱</span>.</p>
+
+<p>Good luck!</p>
+
+<p><span class="mega-octicon octicon-thumbsup" style="font-size: 144px"></span></p>
+
+  </div>
+  
+</div>
+
+<div class="pagination">
+  
+    <a class="pagination-item older" href="/SE8_p5js/page3">Older</a>
+  
+  
+    
+      <a class="pagination-item newer" href="/SE8_p5js">Newer</a>
+    
+  
+</div>
+
+    </div>
+
+  </body>
+</html>
