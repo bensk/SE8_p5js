@@ -4,6 +4,16 @@ title: "Drawing Shapes with p5"
 date: "2016-05-10 18:18"
 ---
 
+## p5 IDE
+
+![]({{ site.baseurl }}_images/p5icon.png)
+
+![](https://cloud.githubusercontent.com/assets/7450756/14081649/c1bb82d6-f4d9-11e5-9e38-57b4b10f4dc2.png)
+
+<span class="mega-octicon octicon-search"></span> for p5
+
+
+
 ## Fun With Shapes
 
 Today, we're going to learn how to draw three shapes: `line`s, `rect`angles, and `ellipse`s.
@@ -59,9 +69,9 @@ ellipse(x, y, width, height)
 
 ### Drawing time!
 
-What if I combine `line`s, `rect`angles, and `ellipse`s?
+What if I combine `line`s, `rect`angles, and `ellipse`s? What can I make?
 
-<script type="text/p5" data-autoplay data-preview-width="200" data-preview-height="200">
+<script type="text/p5" data-preview-width="200" data-preview-height="200">
 function setup() {
 	createCanvas(200, 200)
 }
@@ -74,3 +84,11 @@ function draw() {
 	ellipse(80, 80, 30, 15);
 }
 </script>
+
+OK, I'm not a great artist. But we're getting somewhere.
+
+You are going to use the graph paper on page 3 of your packet to plot a drawing, and begin making it in p5.
+
+Good luck!
+
+<span class="mega-octicon octicon-thumbsup" style="font-size: 144px"></span>

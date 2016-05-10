@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <title>
+         Day 1 &middot; SE8 p5.js 
+    </title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/SE8_p5js/public/css/poole.css">
+    <link rel="stylesheet" href="/SE8_p5js/public/css/syntax.css">
+    <link rel="stylesheet" href="/SE8_p5js/public/css/hyde.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+    <link href='https://fonts.googleapis.com/css?family=Fugaz+One|Source+Sans+Pro:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/SE8_p5jspublic/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/SE8_p5js/public/favicon.png">
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+    <!-- p5.js embed -->
+    <script src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
+    <!-- Octicon -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css">
+</head>
+
+
+  <body class="theme-base-0e">
+
+    <div class="sidebar">
+  <div class="container sidebar">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/SE8_p5js">
+          SE8 p5.js
+        </a>
+      </h1>
+      <p class="lead"></p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <!-- <a class="sidebar-nav-item" href="/SE8_p5js">Home</a> -->
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/SE8_p5js//framerate/">Crazy Framerate</a>
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+<!-- Post nav -->
+<hr />
+<h2>Lessons</h2>
+
+    <p class="lead">May 11, 2016<br>
+      <a href="/SE8_p5js//2016/05/11/dice/">Dice</a>
+
+  
+    <p class="lead">May 10, 2016<br>
+      <a href="/SE8_p5js//2016/05/10/drawing-shapes-with-p5/">Drawing Shapes with p5</a>
+
+  
+    <p class="lead">May 09, 2016<br>
+      <a href="/SE8_p5js//2016/05/09/day-1/">Day 1</a>
+
+  
+    <p class="lead">April 18, 2016<br>
+      <a href="/SE8_p5js//2016/04/18/hello-world/">Hello World</a>
+
+  
+</p>
+<!--  -->
+      <!-- <a class="sidebar-nav-item" href="https://github.com/bensk/archive/v2.0.0.zip">Download</a>
+      <a class="sidebar-nav-item" href="https://github.com/bensk">GitHub project</a>
+      <span class="sidebar-nav-item">Currently v2.0.0</span> -->
+    </nav>
+
+    <!-- <p>&copy; 2016. All rights reserved.</p> -->
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">Day 1</h1>
+  <span class="post-date">09 May 2016</span>
+  <p>Try dragging the <strong>Aim</strong>.</p>
+
+<script type="text/p5" data-autoplay="" data-preview-width="700">
+var aim = "Aim: How can we begin learning a new programming language?";
+var do_now = "Do Now: How many programming languages have you learned? Which is your favorite, and why?"
+
+function setup() {
+	createCanvas(windowWidth, windowHeight);
+
+}
+
+function draw() {
+	background('white');
+	textSize(30);
+	textFont("Proxima Nova");
+	textStyle('bold');
+	fill(`#FF4296`);
+	if (mouseIsPressed) {
+		text(aim, mouseX, mouseY, windowWidth);
+		var do_now = "Uh oh...where'd the Do Now go?"
+		textAlign('center')
+
+	} else {
+		text(aim, 10, 50, windowWidth);
+		var do_now = "Do Now: How many programming languages have you learned? Which is your favorite, and why?"
+	}
+	textSize(18)
+	textStyle('bold')
+	fill('#424242')
+	text(do_now, 10, 100, windowWidth, windowHeight)
+}
+
+
+
+function windowResized() {
+	resizeCanvas(windowWidth, windowHeight);
+}
+</script>
+
+<p>This is <strong>p5</strong>. It allows you to create interactive “sketches” using HTML/CSS and JS, which you <mark>already know</mark>.</p>
+
+<p><strong>p5</strong> works on a <code class="highlighter-rouge">canvas</code>.</p>
+
+<p><img src="http://storage.googleapis.com/wzukusers/user-13385976/images/55bd59e37d7aaQu1bsn7/easel_400.png" alt="" /></p>
+
+<p>Everything you “draw” will be drawn on this canvas, <code class="highlighter-rouge">pixels</code> on a screen.</p>
+
+<p>Here’s one for you to play with:</p>
+
+<script type="text/p5" data-autoplay="" data-preview-width="200">
+function setup() {
+  createCanvas(200,200);
+}
+
+function draw() {
+  rect(50,50,80,50);
+}
+
+// What's this!?
+</script>
+
+<h2 id="exit-slip">Exit Slip!</h2>
+
+<ol>
+  <li>What happens if you change the numbers on line 6: <code class="highlighter-rouge">rect(50,50,80,50);</code>?</li>
+  <li>How could you draw a square?</li>
+  <li>How do you write a comment in p5?</li>
+</ol>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/SE8_p5js//2016/05/11/dice/">
+            Dice
+            <small>11 May 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/SE8_p5js//2016/05/10/drawing-shapes-with-p5/">
+            Drawing Shapes with p5
+            <small>10 May 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/SE8_p5js//2016/04/18/hello-world/">
+            Hello World
+            <small>18 Apr 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+    </div>
+
+  </body>
+</html>
