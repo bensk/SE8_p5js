@@ -67,7 +67,7 @@ ellipse(x, y, width, height)
 
 <span class="mega-octicon octicon-bug"></span> Use this to make a circle. In a comment (`//`), what do you notice about the `width` and `height` that make a circle?
 
-### Drawing time!
+## Drawing time!
 
 What if I combine `line`s, `rect`angles, and `ellipse`s? What can I make?
 
@@ -92,3 +92,6 @@ OK, I'm not a great artist. But we're getting somewhere.
 Good luck!
 
 <span class="mega-octicon octicon-thumbsup" style="font-size: 144px"></span>
+
+## Exit Slip
+If my canvas is 300px wide and 200px tall, write <span style="color: #ED1F5E">p5</span> code to draw a square at the **CENTER** of the canvas. 
