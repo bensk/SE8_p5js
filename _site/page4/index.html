@@ -81,12 +81,20 @@
           
         
       
+        
+          
+        
+      
 <!-- Post nav -->
 <hr />
 <h2>Lessons</h2>
 
+    <p class="lead">May 12, 2016<br>
+      <a href="/SE8_p5js//2016/05/12/alien/">👾</a>
+
+  
     <p class="lead">May 11, 2016<br>
-      <a href="/SE8_p5js//2016/05/11/dice/">Dice</a>
+      <a href="/SE8_p5js//2016/05/11/dice/">🎲 </a>
 
   
     <p class="lead">May 10, 2016<br>
@@ -118,27 +126,81 @@
   
   <div class="post">
     <h1 class="post-title">
-      <a href="/SE8_p5js//2016/04/18/hello-world/">
-        Hello World
+      <a href="/SE8_p5js//2016/05/09/day-1/">
+        Day 1
       </a>
     </h1>
 
-    <span class="post-date">18 Apr 2016</span>
+    <span class="post-date">09 May 2016</span>
 
-    <p>Hello there…</p>
+    <p>Try dragging the <strong>Aim</strong>.</p>
 
-<script type="text/p5" data-autoplay="" data-preview-width="400">
-// Try moving your mouse...
+<script type="text/p5" data-autoplay="" data-preview-width="700">
+var aim = "Aim: How can we begin learning a new programming language?";
+var do_now = "Do Now: How many programming languages have you learned? Which is your favorite, and why?"
+
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+	createCanvas(windowWidth, windowHeight);
+
 }
 
 function draw() {
-  background(mouseX, mouseY, mouseX-mouseY);
+	background('white');
+	textSize(30);
+	textFont("Source Sans Pro");
+	textStyle('bold');
+	fill(`#FF4296`);
+	if (mouseIsPressed) {
+		text(aim, mouseX, mouseY, windowWidth);
+		var do_now = "Uh oh...where'd the Do Now go?"
+		textAlign('center')
+
+	} else {
+		text(aim, 10, 50, windowWidth);
+		var do_now = "Do Now: How many programming languages have you learned? Which is your favorite, and why?"
+	}
+	textSize(18)
+	textStyle('bold')
+	fill('#424242')
+	text(do_now, 10, 100, windowWidth, windowHeight)
+}
+
+
+
+function windowResized() {
+	resizeCanvas(windowWidth, windowHeight);
 }
 </script>
 
-<p>Ok, that’s pretty cool.</p>
+<p>This is <strong><span style="color: #ED1F5E">p5</span></strong>. It allows you to create interactive “sketches” using HTML/CSS and JS, which you <mark>already know</mark>.</p>
+
+<p><strong><span style="color: #ED1F5E">p5</span></strong> works on a <code class="highlighter-rouge">canvas</code>.</p>
+
+<p><img src="http://storage.googleapis.com/wzukusers/user-13385976/images/55bd59e37d7aaQu1bsn7/easel_400.png" alt="" /></p>
+
+<p>Everything you “draw” will be drawn on this canvas, <code class="highlighter-rouge">pixels</code> on a screen.</p>
+
+<p>Here’s one for you to play with:</p>
+
+<script type="text/p5" data-autoplay="" data-preview-width="200">
+function setup() {
+  createCanvas(200,200);
+}
+
+function draw() {
+  rect(50,50,80,50);
+}
+
+// What's this!?
+</script>
+
+<h2 id="exit-slip">Exit Slip!</h2>
+
+<ol>
+  <li>What happens if you change the numbers on line 6: <code class="highlighter-rouge">rect(50,50,80,50);</code>?</li>
+  <li>How could you draw a square?</li>
+  <li>How do you write a comment in <span style="color: #ED1F5E">p5</span>?</li>
+</ol>
 
   </div>
   
@@ -146,7 +208,7 @@ function draw() {
 
 <div class="pagination">
   
-    <span class="pagination-item older">Older</span>
+    <a class="pagination-item older" href="/SE8_p5js/page5">Older</a>
   
   
     

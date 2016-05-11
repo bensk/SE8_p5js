@@ -81,12 +81,20 @@
           
         
       
+        
+          
+        
+      
 <!-- Post nav -->
 <hr />
 <h2>Lessons</h2>
 
+    <p class="lead">May 12, 2016<br>
+      <a href="/SE8_p5js//2016/05/12/alien/">👾</a>
+
+  
     <p class="lead">May 11, 2016<br>
-      <a href="/SE8_p5js//2016/05/11/dice/">Dice</a>
+      <a href="/SE8_p5js//2016/05/11/dice/">🎲 </a>
 
   
     <p class="lead">May 10, 2016<br>
@@ -118,104 +126,44 @@
   
   <div class="post">
     <h1 class="post-title">
-      <a href="/SE8_p5js//2016/05/10/drawing-shapes-with-p5/">
-        Drawing Shapes with p5
+      <a href="/SE8_p5js//2016/05/11/dice/">
+        🎲 
       </a>
     </h1>
 
-    <span class="post-date">10 May 2016</span>
+    <span class="post-date">11 May 2016</span>
 
-    <h2 id="span-stylecolor-ed1f5ep5span-ide"><span style="color: #ED1F5E">p5</span> IDE</h2>
-<p><span class="mega-octicon octicon-search"></span> for <span style="color: #ED1F5E">p5</span>
-<img src="/SE8_p5js/images/p5icon.png" alt="" /></p>
+    <p>Let’s say we throw two dice on the ground. What number did we roll?</p>
 
-<p>You should see this:</p>
-
-<p><img src="/SE8_p5js/images/p5Editor.png" alt="" /></p>
-
-<p>This is an IDE (Integrated Development Environment). We used <strong>PyCharm</strong> for <strong>Python</strong>, and we will use <strong><span style="color: #ED1F5E">p5</span></strong> for, well…<strong><span style="color: #ED1F5E">p5</span></strong>.</p>
-
-<h2 id="fun-with-shapes">Fun With Shapes</h2>
-
-<p>Today, we’re going to learn how to draw three shapes: <code class="highlighter-rouge">line</code>s, <code class="highlighter-rouge">rect</code>angles, and <code class="highlighter-rouge">ellipse</code>s.</p>
-
-<p>(Also, <code class="highlighter-rouge">point</code>, but that one’s kind boring.</p>
-
-<p><span class="mega-octicon octicon-bug"></span> Go ahead and try it. Turn on a single pixel:</p>
-
-<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="nx">point</span><span class="p">(</span><span class="mi">42</span><span class="p">,</span><span class="mi">42</span><span class="p">)</span>
-</code></pre>
-</div>
-
-<h3 id="line">| <code class="highlighter-rouge">line()</code></h3>
-<p>A line is defined by <strong>two points</strong>:  A and B
-In <span style="color: #ED1F5E">p5</span>:  <code class="highlighter-rouge">line(x1, y1, x2, y2);</code></p>
-
-<p>✱ lower case ‘line’  <br />
-✱ four <strong>parameters</strong> in parenthesis, separated by commas  <br />
-✱ lines end with semicolon <code class="highlighter-rouge">;</code>, just like JavaScript.</p>
-
-<p><span class="mega-octicon octicon-bug"></span> Try to draw a line at an angle that <em>isn’t</em> 90° or 180° (not vertical or horizontal).</p>
-
-<h3 id="rect">▭ <code class="highlighter-rouge">rect()</code></h3>
-<p>In <span style="color: #ED1F5E">p5</span>, rectangles are defined by the <strong>top left corner</strong>, followed by a <strong>width</strong> and a <strong>height</strong>.</p>
-
-<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="nx">rect</span><span class="p">(</span><span class="nx">x</span><span class="p">,</span> <span class="nx">y</span><span class="p">,</span> <span class="nx">width</span><span class="p">,</span> <span class="nx">height</span><span class="p">);</span>
-</code></pre>
-</div>
-
-<p>✱ lower case ‘rect’  <br />
-✱ four ‘parameters’ in parenthesis  <br />
-✱ lines end with semicolon <code class="highlighter-rouge">;</code>, just like JavaScript.</p>
-
-<p>You can also define them using <strong>corners</strong>: the <em>top left</em> and <em>bottom right</em> point.</p>
-
-<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="nx">rectMode</span><span class="p">(</span><span class="nx">CORNERS</span><span class="p">);</span>
-<span class="c1">// What happens if you put rectMode(CORNERS) on line 2?</span>
-<span class="nx">rect</span><span class="p">(</span><span class="nx">x1</span><span class="p">,</span> <span class="nx">y1</span><span class="p">,</span> <span class="nx">x2</span><span class="p">,</span> <span class="nx">y2</span><span class="p">);</span>
-<span class="nx">Two</span> <span class="nx">lines</span> <span class="nx">of</span> <span class="nx">code</span>
-</code></pre>
-</div>
-
-<h3 id="ellipse">⬭ <code class="highlighter-rouge">ellipse()</code></h3>
-<p>An <strong>ellipse</strong> is an oval. For the purposes of this class (before you’ve studied <a href="https://www.google.com/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#q=conic%20sections" title="Google it!">conic sections</a>), all we need to know is that a circle is actually a special kind of ellipse, and <code class="highlighter-rouge">ellipse()</code> is the command that will let us draw <strong>round</strong> shapes.</p>
-
-<p>In <span style="color: #ED1F5E">p5</span>, ellipses are defined by a <strong>center</strong> coordinate, a <strong>width</strong>, a <strong>height</strong>.</p>
-
-<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="nx">ellipse</span><span class="p">(</span><span class="nx">x</span><span class="p">,</span> <span class="nx">y</span><span class="p">,</span> <span class="nx">width</span><span class="p">,</span> <span class="nx">height</span><span class="p">)</span>
-</code></pre>
-</div>
-
-<p><span class="mega-octicon octicon-bug"></span> Use this to make a circle. In a comment (<code class="highlighter-rouge">//</code>), what do you notice about the <code class="highlighter-rouge">width</code> and <code class="highlighter-rouge">height</code> that make a circle?</p>
-
-<h2 id="drawing-time">Drawing time!</h2>
-
-<p>What if I combine <code class="highlighter-rouge">line</code>s, <code class="highlighter-rouge">rect</code>angles, and <code class="highlighter-rouge">ellipse</code>s? What can I make?</p>
-
-<script type="text/p5" data-preview-width="200" data-preview-height="200">
+<script type="text/p5" data-height="320" data-preview-width="470">
 function setup() {
-	createCanvas(200, 200)
+	createCanvas(windowWidth, windowHeight);
+	background('#ED245E');
 }
 
 function draw() {
-	line(78, 5, 78, 200)
-	line(82, 5, 82, 200)
-	rect(5, 5, 150, 75);
-	rect(50, 40, 60, 30);
-	ellipse(80, 80, 30, 15);
+	strokeWeight(3);
+	stroke(0);
+	fill(255);
+	rect(20, 20, 200, 200);
+	fill('blue');
+	ellipse(120, 120, 50, 50);
+	fill(255);
+	rect(250, 20, 200, 200);
+	fill('blue');
+	ellipse(300, 70, 50, 50);
+	ellipse(350, 120, 50, 50);
+	ellipse(400, 170, 50, 50);
 }
 </script>
 
-<p>OK, I’m not a great artist. But we’re getting somewhere.</p>
+<p>Now it’s your turn. We need a 6 to win! Copy and modify the code to make these dice always roll a 6.</p>
 
-<p><span class="mega-octicon octicon-bug"></span> Use the graph paper on page 3 of your packet to plot a drawing, and begin making it in <span style="color: #ED1F5E">p5✱</span>.</p>
+<h2 id="roll-the-die">Roll the Die</h2>
 
-<p>Good luck!</p>
+<p>On page 3 and 4 your packet, you have <span style="color: #ED1F5E">p5</span> coordinate graph paper. Use it to plot a drawing, then code it in <span style="color: #ED1F5E">p5</span>.</p>
 
-<p><span class="mega-octicon octicon-thumbsup" style="font-size: 144px"></span></p>
-
-<h2 id="exit-slip">Exit Slip</h2>
-<p>If my canvas is 300px wide and 200px tall, write <span style="color: #ED1F5E">p5</span> code to draw a square at the <strong>CENTER</strong> of the canvas.</p>
+<p>Use <code class="highlighter-rouge">line()</code>, <code class="highlighter-rouge">rect()</code>, and <code class="highlighter-rouge">ellipse()</code> to create your shape, and <code class="highlighter-rouge">fill()</code> to give it color.</p>
 
   </div>
   

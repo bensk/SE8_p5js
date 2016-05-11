@@ -4,7 +4,7 @@
  <title>SE8 p5.js</title>
  <link href="http://bsk.education/SE8_p5js/atom.xml" rel="self"/>
  <link href="http://bsk.education/SE8_p5js/"/>
- <updated>2016-05-10T21:53:40-04:00</updated>
+ <updated>2016-05-10T22:13:52-04:00</updated>
  <id>http://bsk.education/SE8_p5js</id>
  <author>
    <name>Ben Samuels-Kalow</name>
@@ -13,7 +13,16 @@
 
  
  <entry>
-   <title>Dice</title>
+   <title>👾</title>
+   <link href="http://bsk.education/SE8_p5js/2016/05/12/alien/"/>
+   <updated>2016-05-12T22:06:00-04:00</updated>
+   <id>http://bsk.education/SE8_p5js/2016/05/12/👾-alien</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>🎲 </title>
    <link href="http://bsk.education/SE8_p5js/2016/05/11/dice/"/>
    <updated>2016-05-11T16:35:00-04:00</updated>
    <id>http://bsk.education/SE8_p5js/2016/05/11/dice</id>
@@ -42,6 +51,12 @@ function draw() {
 &lt;/script&gt;
 
 &lt;p&gt;Now it’s your turn. We need a 6 to win! Copy and modify the code to make these dice always roll a 6.&lt;/p&gt;
+
+&lt;h2 id=&quot;roll-the-die&quot;&gt;Roll the Die&lt;/h2&gt;
+
+&lt;p&gt;On page 3 and 4 your packet, you have &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt; coordinate graph paper. Use it to plot a drawing, then code it in &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;line()&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;rect()&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse()&lt;/code&gt; to create your shape, and &lt;code class=&quot;highlighter-rouge&quot;&gt;fill()&lt;/code&gt; to give it color.&lt;/p&gt;
 </content>
  </entry>
  

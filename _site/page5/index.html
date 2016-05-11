@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
     <title>
-         🎲  &middot; SE8 p5.js 
+         SE8 p5.js &middot;  
     </title>
 
     <!-- CSS -->
@@ -122,81 +122,45 @@
 
 
     <div class="content container">
-      <div class="post">
-  <h1 class="post-title">🎲 </h1>
-  <span class="post-date"><!-- Whitespace added for readability -->
-
-May
-11<sup>th</sup>
+      <div class="posts">
   
-<!-- 2016 -->
-</span>
-  <p>Let’s say we throw two dice on the ground. What number did we roll?</p>
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/SE8_p5js//2016/04/18/hello-world/">
+        Hello World
+      </a>
+    </h1>
 
-<script type="text/p5" data-height="320" data-preview-width="470">
+    <span class="post-date">18 Apr 2016</span>
+
+    <p>Hello there…</p>
+
+<script type="text/p5" data-autoplay="" data-preview-width="400">
+// Try moving your mouse...
 function setup() {
-	createCanvas(windowWidth, windowHeight);
-	background('#ED245E');
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-	strokeWeight(3);
-	stroke(0);
-	fill(255);
-	rect(20, 20, 200, 200);
-	fill('blue');
-	ellipse(120, 120, 50, 50);
-	fill(255);
-	rect(250, 20, 200, 200);
-	fill('blue');
-	ellipse(300, 70, 50, 50);
-	ellipse(350, 120, 50, 50);
-	ellipse(400, 170, 50, 50);
+  background(mouseX, mouseY, mouseX-mouseY);
 }
 </script>
 
-<p>Now it’s your turn. We need a 6 to win! Copy and modify the code to make these dice always roll a 6.</p>
+<p>Ok, that’s pretty cool.</p>
 
-<h2 id="roll-the-die">Roll the Die</h2>
-
-<p>On page 3 and 4 your packet, you have <span style="color: #ED1F5E">p5</span> coordinate graph paper. Use it to plot a drawing, then code it in <span style="color: #ED1F5E">p5</span>.</p>
-
-<p>Use <code class="highlighter-rouge">line()</code>, <code class="highlighter-rouge">rect()</code>, and <code class="highlighter-rouge">ellipse()</code> to create your shape, and <code class="highlighter-rouge">fill()</code> to give it color.</p>
-
+  </div>
+  
 </div>
 
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
+<div class="pagination">
+  
+    <span class="pagination-item older">Older</span>
+  
+  
     
-      <li>
-        <h3>
-          <a href="/SE8_p5js//2016/05/12/alien/">
-            👾
-            <small>12 May 2016</small>
-          </a>
-        </h3>
-      </li>
+      <a class="pagination-item newer" href="/SE8_p5js/page4">Newer</a>
     
-      <li>
-        <h3>
-          <a href="/SE8_p5js//2016/05/10/drawing-shapes-with-p5/">
-            Drawing Shapes with p5
-            <small>10 May 2016</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/SE8_p5js//2016/05/09/day-1/">
-            Day 1
-            <small>09 May 2016</small>
-          </a>
-        </h3>
-      </li>
-    
-  </ul>
+  
 </div>
 
     </div>
