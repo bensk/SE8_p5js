@@ -1,14 +1,13 @@
 function setup() {
-	createCanvas(windowHeight, windowWidth);
+	createCanvas(470, 240);
+	background('#ED245E');
 }
 
 function draw() {
-  	background('#ED245E');
-
 	strokeWeight(3);
 	stroke(0);
 	fill(255);
-	rect(20, 20, windowWidth/2-20, windowHeight/2-20);
+	rect(20, 20, 200, 200);
 	fill('blue');
 	ellipse(120, 120, 50, 50);
 	fill(255);
