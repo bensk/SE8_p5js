@@ -4,7 +4,7 @@
  <title>SE8 p5.js</title>
  <link href="http://bsk.education/SE8_p5js/atom.xml" rel="self"/>
  <link href="http://bsk.education/SE8_p5js/"/>
- <updated>2016-05-12T08:59:42-04:00</updated>
+ <updated>2016-05-12T09:00:54-04:00</updated>
  <id>http://bsk.education/SE8_p5js</id>
  <author>
    <name>Ben Samuels-Kalow</name>
@@ -66,9 +66,9 @@
  
  <entry>
    <title>🎲  Dice</title>
-   <link href="http://bsk.education/SE8_p5js/2016/05/11/dice/"/>
-   <updated>2016-05-11T16:35:00-04:00</updated>
-   <id>http://bsk.education/SE8_p5js/2016/05/11/dice</id>
+   <link href="http://bsk.education/SE8_p5js/2016/05/12/dice/"/>
+   <updated>2016-05-12T16:35:00-04:00</updated>
+   <id>http://bsk.education/SE8_p5js/2016/05/12/dice</id>
    <content type="html">&lt;p&gt;Let’s say we throw two dice on the ground. What number did we roll?&lt;/p&gt;
 
 &lt;script type=&quot;text/p5&quot; data-height=&quot;490&quot; data-preview-width=&quot;470&quot;&gt;
