@@ -1,13 +1,12 @@
 function setup() {
-    createCanvas(400, 220);
+    createCanvas(400, 200);
 }
 
 function draw() {
-    background('white')
-
+    background('grey')
     strokeWeight(3);
-    line(135, 70, 175, 43);
-    line(65, 70, 25, 43);
+    line(.3375*windowWidth, .35*windowHeight, 175, 43);
+    line(.1625*windowWidth, 70, 25, 43);
     ellipse(100, 110, 100, 100);
     ellipse(100, 80, 70, 70);
     ellipse(100, 50, 40, 40);
