@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>SE8 p5.js</title>
+ <link href="http://bsk.education/SE8_p5js/atom.xml" rel="self"/>
+ <link href="http://bsk.education/SE8_p5js/"/>
+ <updated>2016-05-12T07:53:08-04:00</updated>
+ <id>http://bsk.education/SE8_p5js</id>
+ <author>
+   <name>Ben Samuels-Kalow</name>
+   <email>bsk@ms224.org</email>
+ </author>
+
+ 
+ <entry>
+   <title>👾 Alien</title>
+   <link href="http://bsk.education/SE8_p5js/2016/05/13/alien/"/>
+   <updated>2016-05-13T22:06:00-04:00</updated>
+   <id>http://bsk.education/SE8_p5js/2016/05/13/👾-alien</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Do You Want to Build a ⛄️?</title>
+   <link href="http://bsk.education/SE8_p5js/2016/05/13/do-you-want-to-build-a-snowman/"/>
+   <updated>2016-05-13T07:38:00-04:00</updated>
+   <id>http://bsk.education/SE8_p5js/2016/05/13/do-you-want-to-build-a-snowman</id>
+   <content type="html">&lt;p&gt;```javascript
+function setup(){
+    createCanvas
+}&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>🎲  Dice</title>
+   <link href="http://bsk.education/SE8_p5js/2016/05/11/dice/"/>
+   <updated>2016-05-11T16:35:00-04:00</updated>
+   <id>http://bsk.education/SE8_p5js/2016/05/11/dice</id>
+   <content type="html">&lt;p&gt;Let’s say we throw two dice on the ground. What number did we roll?&lt;/p&gt;
+
+&lt;script type=&quot;text/p5&quot; data-height=&quot;490&quot; data-preview-width=&quot;470&quot;&gt;
+function setup() {
+	createCanvas(windowWidth, windowHeight);
+	background(&#39;#ED245E&#39;);
+}
+
+function draw() {
+	strokeWeight(3);
+	stroke(&#39;black&#39;);
+	fill(255);
+	rect(20, 20, 200, 200);
+	fill(&#39;blue&#39;);
+	ellipse(120, 120, 50, 50);
+	fill(255);
+	rect(250, 20, 200, 200);
+	fill(&#39;blue&#39;);
+	ellipse(300, 70, 50, 50);
+	ellipse(350, 120, 50, 50);
+	ellipse(400, 170, 50, 50);
+}
+&lt;/script&gt;
+
+&lt;p&gt;Now it’s your turn. We need a 6 to win! Copy and modify the code to make these dice always show a 6.&lt;/p&gt;
+
+&lt;h2 id=&quot;roll-the-die&quot;&gt;Roll the Die&lt;/h2&gt;
+
+&lt;p&gt;On page 3 your packet, you have small &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt; coordinate graph paper. Use it to plot a drawing, then practice coding it in &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;line()&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;rect()&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse()&lt;/code&gt; to create your shape, and &lt;code class=&quot;highlighter-rouge&quot;&gt;fill()&lt;/code&gt; to give it color.&lt;/p&gt;
+
+&lt;h2 id=&quot;span-classmega-octicon-octicon-rocketspan-push-yourself-for-a-4&quot;&gt;&lt;span class=&quot;mega-octicon octicon-rocket&quot;&gt;&lt;/span&gt; Push yourself for a 4!&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Change the color of your die&lt;/li&gt;
+  &lt;li&gt;Change the color of the background&lt;/li&gt;
+  &lt;li&gt;Move the die around the screen&lt;/li&gt;
+  &lt;li&gt;Add another die&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Drawing Shapes with p5</title>
+   <link href="http://bsk.education/SE8_p5js/2016/05/10/drawing-shapes-with-p5/"/>
+   <updated>2016-05-10T18:18:00-04:00</updated>
+   <id>http://bsk.education/SE8_p5js/2016/05/10/drawing-shapes-with-p5</id>
+   <content type="html">&lt;h2 id=&quot;span-stylecolor-ed1f5ep5span-ide&quot;&gt;&lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt; IDE&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&quot;mega-octicon octicon-search&quot;&gt;&lt;/span&gt; for &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;
+&lt;img src=&quot;/SE8_p5js/images/p5icon.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You should see this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/SE8_p5js/images/p5Editor.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is an IDE (Integrated Development Environment). We used &lt;strong&gt;PyCharm&lt;/strong&gt; for &lt;strong&gt;Python&lt;/strong&gt;, and we will use &lt;strong&gt;&lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;&lt;/strong&gt; for, well…&lt;strong&gt;&lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;fun-with-shapes&quot;&gt;Fun With Shapes&lt;/h2&gt;
+
+&lt;p&gt;Today, we’re going to learn how to draw three shapes: &lt;code class=&quot;highlighter-rouge&quot;&gt;line&lt;/code&gt;s, &lt;code class=&quot;highlighter-rouge&quot;&gt;rect&lt;/code&gt;angles, and &lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse&lt;/code&gt;s.&lt;/p&gt;
+
+&lt;p&gt;(Also, &lt;code class=&quot;highlighter-rouge&quot;&gt;point&lt;/code&gt;, but that one’s kind boring.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;mega-octicon octicon-bug&quot;&gt;&lt;/span&gt; Go ahead and try it. Turn on a single pixel:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;point&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;line&quot;&gt;| &lt;code class=&quot;highlighter-rouge&quot;&gt;line()&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;A line is defined by &lt;strong&gt;two points&lt;/strong&gt;:  A and B
+In &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;:  &lt;code class=&quot;highlighter-rouge&quot;&gt;line(x1, y1, x2, y2);&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;✱ lower case ‘line’  &lt;br /&gt;
+✱ four &lt;strong&gt;parameters&lt;/strong&gt; in parenthesis, separated by commas  &lt;br /&gt;
+✱ lines end with semicolon &lt;code class=&quot;highlighter-rouge&quot;&gt;;&lt;/code&gt;, just like JavaScript.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;mega-octicon octicon-bug&quot;&gt;&lt;/span&gt; Try to draw a line at an angle that &lt;em&gt;isn’t&lt;/em&gt; 90° or 180° (not vertical or horizontal).&lt;/p&gt;
+
+&lt;h3 id=&quot;rect&quot;&gt;▭ &lt;code class=&quot;highlighter-rouge&quot;&gt;rect()&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;In &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;, rectangles are defined by the &lt;strong&gt;top left corner&lt;/strong&gt;, followed by a &lt;strong&gt;width&lt;/strong&gt; and a &lt;strong&gt;height&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;rect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;✱ lower case ‘rect’  &lt;br /&gt;
+✱ four ‘parameters’ in parenthesis  &lt;br /&gt;
+✱ lines end with semicolon &lt;code class=&quot;highlighter-rouge&quot;&gt;;&lt;/code&gt;, just like JavaScript.&lt;/p&gt;
+
+&lt;p&gt;You can also define them using &lt;strong&gt;corners&lt;/strong&gt;: the &lt;em&gt;top left&lt;/em&gt; and &lt;em&gt;bottom right&lt;/em&gt; point.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;rectMode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CORNERS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// What happens if you put rectMode(CORNERS) on line 2?&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;rect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Two&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lines&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;ellipse&quot;&gt;⬭ &lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse()&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;An &lt;strong&gt;ellipse&lt;/strong&gt; is an oval. For the purposes of this class (before you’ve studied &lt;a href=&quot;https://www.google.com/webhp?sourceid=chrome-instant&amp;amp;ion=1&amp;amp;espv=2&amp;amp;ie=UTF-8#q=conic%20sections&quot; title=&quot;Google it!&quot;&gt;conic sections&lt;/a&gt;), all we need to know is that a circle is actually a special kind of ellipse, and &lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse()&lt;/code&gt; is the command that will let us draw &lt;strong&gt;round&lt;/strong&gt; shapes.&lt;/p&gt;
+
+&lt;p&gt;In &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;, ellipses are defined by a &lt;strong&gt;center&lt;/strong&gt; coordinate, a &lt;strong&gt;width&lt;/strong&gt;, a &lt;strong&gt;height&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;ellipse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;span class=&quot;mega-octicon octicon-bug&quot;&gt;&lt;/span&gt; Use this to make a circle. In a comment (&lt;code class=&quot;highlighter-rouge&quot;&gt;//&lt;/code&gt;), what do you notice about the &lt;code class=&quot;highlighter-rouge&quot;&gt;width&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;height&lt;/code&gt; that make a circle?&lt;/p&gt;
+
+&lt;h2 id=&quot;drawing-time&quot;&gt;Drawing time!&lt;/h2&gt;
+
+&lt;p&gt;What if I combine &lt;code class=&quot;highlighter-rouge&quot;&gt;line&lt;/code&gt;s, &lt;code class=&quot;highlighter-rouge&quot;&gt;rect&lt;/code&gt;angles, and &lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse&lt;/code&gt;s? What can I make?&lt;/p&gt;
+
+&lt;script type=&quot;text/p5&quot; data-preview-width=&quot;200&quot; data-preview-height=&quot;200&quot;&gt;
+function setup() {
+	createCanvas(200, 200)
+}
+
+function draw() {
+	line(78, 5, 78, 200)
+	line(82, 5, 82, 200)
+	rect(5, 5, 150, 75);
+	rect(50, 40, 60, 30);
+	ellipse(80, 80, 30, 15);
+}
+&lt;/script&gt;
+
+&lt;p&gt;OK, I’m not a great artist. But we’re getting somewhere.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;mega-octicon octicon-bug&quot;&gt;&lt;/span&gt; Use the graph paper on page 3 of your packet to plot a drawing, and begin making it in &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5✱&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;Good luck!&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;mega-octicon octicon-thumbsup&quot; style=&quot;font-size: 144px&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;exit-slip&quot;&gt;Exit Slip&lt;/h2&gt;
+&lt;p&gt;If my canvas is 300px wide and 200px tall, write &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt; code to draw a square at the &lt;strong&gt;CENTER&lt;/strong&gt; of the canvas.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Day 1</title>
+   <link href="http://bsk.education/SE8_p5js/2016/05/09/day-1/"/>
+   <updated>2016-05-09T15:45:00-04:00</updated>
+   <id>http://bsk.education/SE8_p5js/2016/05/09/day-1</id>
+   <content type="html">&lt;p&gt;Try dragging the &lt;strong&gt;Aim&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;script type=&quot;text/p5&quot; data-autoplay=&quot;&quot; data-preview-width=&quot;700&quot;&gt;
+var aim = &quot;Aim: How can we begin learning a new programming language?&quot;;
+var do_now = &quot;Do Now: How many programming languages have you learned? Which is your favorite, and why?&quot;
+
+function setup() {
+	createCanvas(windowWidth, windowHeight);
+
+}
+
+function draw() {
+	background(&#39;white&#39;);
+	textSize(30);
+	textFont(&quot;Source Sans Pro&quot;);
+	textStyle(&#39;bold&#39;);
+	fill(`#FF4296`);
+	if (mouseIsPressed) {
+		text(aim, mouseX, mouseY, windowWidth);
+		var do_now = &quot;Uh oh...where&#39;d the Do Now go?&quot;
+		textAlign(&#39;center&#39;)
+
+	} else {
+		text(aim, 10, 50, windowWidth);
+		var do_now = &quot;Do Now: How many programming languages have you learned? Which is your favorite, and why?&quot;
+	}
+	textSize(18)
+	textStyle(&#39;bold&#39;)
+	fill(&#39;#424242&#39;)
+	text(do_now, 10, 100, windowWidth, windowHeight)
+}
+
+
+
+function windowResized() {
+	resizeCanvas(windowWidth, windowHeight);
+}
+&lt;/script&gt;
+
+&lt;p&gt;This is &lt;strong&gt;&lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;&lt;/strong&gt;. It allows you to create interactive “sketches” using HTML/CSS and JS, which you &lt;mark&gt;already know&lt;/mark&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;&lt;/strong&gt; works on a &lt;code class=&quot;highlighter-rouge&quot;&gt;canvas&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://storage.googleapis.com/wzukusers/user-13385976/images/55bd59e37d7aaQu1bsn7/easel_400.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Everything you “draw” will be drawn on this canvas, &lt;code class=&quot;highlighter-rouge&quot;&gt;pixels&lt;/code&gt; on a screen.&lt;/p&gt;
+
+&lt;p&gt;Here’s one for you to play with:&lt;/p&gt;
+
+&lt;script type=&quot;text/p5&quot; data-autoplay=&quot;&quot; data-preview-width=&quot;200&quot;&gt;
+function setup() {
+  createCanvas(200,200);
+}
+
+function draw() {
+  rect(50,50,80,50);
+}
+
+// What&#39;s this!?
+&lt;/script&gt;
+
+&lt;h2 id=&quot;exit-slip&quot;&gt;Exit Slip!&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;What happens if you change the numbers on line 6: &lt;code class=&quot;highlighter-rouge&quot;&gt;rect(50,50,80,50);&lt;/code&gt;?&lt;/li&gt;
+  &lt;li&gt;How could you draw a square?&lt;/li&gt;
+  &lt;li&gt;How do you write a comment in &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt;?&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Hello World</title>
+   <link href="http://bsk.education/SE8_p5js/2016/04/18/hello-world/"/>
+   <updated>2016-04-18T13:05:00-04:00</updated>
+   <id>http://bsk.education/SE8_p5js/2016/04/18/hello-world</id>
+   <content type="html">&lt;p&gt;Hello there…&lt;/p&gt;
+
+&lt;script type=&quot;text/p5&quot; data-autoplay=&quot;&quot; data-preview-width=&quot;400&quot;&gt;
+// Try moving your mouse...
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+}
+
+function draw() {
+  background(mouseX, mouseY, mouseX-mouseY);
+}
+&lt;/script&gt;
+
+&lt;p&gt;Ok, that’s pretty cool.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
