@@ -4,7 +4,7 @@
  <title>SE8 p5.js</title>
  <link href="http://bsk.education/SE8_p5js/atom.xml" rel="self"/>
  <link href="http://bsk.education/SE8_p5js/"/>
- <updated>2016-05-12T08:24:22-04:00</updated>
+ <updated>2016-05-12T08:59:42-04:00</updated>
  <id>http://bsk.education/SE8_p5js</id>
  <author>
    <name>Ben Samuels-Kalow</name>
@@ -26,10 +26,41 @@
    <link href="http://bsk.education/SE8_p5js/2016/05/13/do-you-want-to-build-a-snowman/"/>
    <updated>2016-05-13T07:38:00-04:00</updated>
    <id>http://bsk.education/SE8_p5js/2016/05/13/do-you-want-to-build-a-snowman</id>
-   <content type="html">&lt;p&gt;```javascript
-function setup(){
-    createCanvas
-}&lt;/p&gt;
+   <content type="html">&lt;div style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;http://bsk.education/SE8_p5js/Code_Examples/Snowman/&quot;&gt;☃&lt;/a&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Do you wanna build a snowman?&lt;/em&gt;  &lt;br /&gt;
+&lt;em&gt;It doesn’t have to be a snowman…&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;createCanvas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;400&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Use the &lt;span style=&quot;color: #ED1F5E&quot;&gt;p5&lt;/span&gt; graph paper to plan your snowman&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;span-classmega-octicon-octicon-checkspan-to-meet-standards-you-should-have&quot;&gt;&lt;span class=&quot;mega-octicon octicon-check&quot;&gt;&lt;/span&gt; To meet standards, you should have:&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;At least 3 &lt;code class=&quot;highlighter-rouge&quot;&gt;ellipse()&lt;/code&gt;, correctly layred so that it &lt;em&gt;looks&lt;/em&gt; like one is resting on top of the other.&lt;/li&gt;
+  &lt;li&gt;At least two &lt;code class=&quot;highlighter-rouge&quot;&gt;line()&lt;/code&gt; for the arms&lt;/li&gt;
+  &lt;li&gt;What shape do you think I used to make the nose? Use &lt;a href=&quot;https://p5js.org/reference/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;p5✱ Reference&lt;/code&gt;&lt;/a&gt; to figure out how to make this shape.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;span-classmega-octicon-octicon-rocketspan-push-yourself-for-a-4&quot;&gt;&lt;span class=&quot;mega-octicon octicon-rocket&quot;&gt;&lt;/span&gt; Push yourself for a 4!&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;fill()&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;stroke()&lt;/code&gt; to give your snowman some color.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;It doesn’t have to be a snowman. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
 </content>
  </entry>
  

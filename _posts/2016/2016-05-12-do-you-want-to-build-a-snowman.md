@@ -4,7 +4,26 @@ title: "Do You Want to Build a ⛄️?"
 date: "2016-05-13 07:38"
 ---
 
+<div style="text-align: center"><a href="http://bsk.education/SE8_p5js/Code_Examples/Snowman/">☃</a></div>
+> _Do you wanna build a snowman?_    
+> _It doesn't have to be a snowman..._
+
+---
+
 ```javascript
 function setup(){
-    createCanvas
+    createCanvas(400,200)
 }
+```
+
+Use the <span style="color: #ED1F5E">p5</span> graph paper to plan your snowman[^1].
+
+## <span class="mega-octicon octicon-check"></span> To meet standards, you should have:
+1. At least 3 `ellipse()`, correctly layred so that it _looks_ like one is resting on top of the other.
+2. At least two `line()` for the arms
+3. What shape do you think I used to make the nose? Use [`p5✱ Reference`](https://p5js.org/reference/) to figure out how to make this shape.
+
+## <span class="mega-octicon octicon-rocket"></span> Push yourself for a 4!
+4. Use `fill()` and `stroke()` to give your snowman some color.
+
+[^1]: It doesn't have to be a snowman.

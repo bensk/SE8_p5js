@@ -3,7 +3,7 @@ function setup() {
 }
 
 function draw() {
-    // background('grey')
+    background('white')
 
     strokeWeight(3);
     line(135, 70, 175, 43);
