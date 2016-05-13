@@ -20,6 +20,7 @@ Use the <span style="color: #ED1F5E">p5</span> graph paper to plan your snowman[
 
 ## <span class="mega-octicon octicon-light-bulb"></span>Helpful Hint from Ms. Hersh:
 If you add this code to your sketches, you'll be able to see where your mouse is on the screen...very helpful for drawing!
+
 ```javascript
 textSize(10)
 text('Mouse X = ' + mouseX + " | Mouse Y = " + mouseY, 10, 10)
