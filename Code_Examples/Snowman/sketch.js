@@ -22,6 +22,9 @@ function draw() {
   textStyle('italic')
   text("Do you want to build a me?", 10, 200)
     // Show my mouse coordinates on the screen, useful for drawing:
+  
+  // line(0,mouseY,mouseX,mouseY)
+  // line(mouseX, mouseY, mouseX, windowHeight)
   textFont('monospace')
   textSize(10)
   textStyle('bold')
