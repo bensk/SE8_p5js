@@ -31,7 +31,7 @@ textSize(10)
 text('Mouse X = ' + mouseX + " | Mouse Y = " + mouseY, 10, 10)
 ```
 
-## <span class="mega-octicon octicon-check"></span> To meet standards, you should have:
+## <span class="mega-octicon octicon-check"></span> Meeting Standards:
 1. At least 3 `ellipse()`, correctly layered so that it _looks_ like one is resting on top of the other.
 2. At least two `line()` for the arms
 3. What shape do you think I used to make the nose? Use [`p5✱ Reference`](https://p5js.org/reference/) to figure out how to make this shape.
