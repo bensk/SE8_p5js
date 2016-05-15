@@ -15,7 +15,7 @@ function draw() {
   strokeWeight(5)
   // point(windowWidth/2+.4*windowHeight,)
   angleMode(DEGREES)
-  rotate(1)
+  rotate(2*PI*mouseX/windowHeight);
   point(x,y)
  
 
