@@ -9,7 +9,7 @@ function setup() {
 function draw() {
 	background('white');
 	textSize(120);
-	textFont("Source Sans Pro");
+	textFont("Proxima Nova");
 	textStyle('bold');
 	fill(`#FF4296`);
 	if (mouseIsPressed) {
