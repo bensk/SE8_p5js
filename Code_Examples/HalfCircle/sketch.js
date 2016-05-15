@@ -3,6 +3,7 @@ function setup() {
 }
 
 function draw() {
+	
   ellipse(250,250,250,250)
   strokeWeight(2)
   stroke('white')
