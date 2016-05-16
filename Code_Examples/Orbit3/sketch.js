@@ -14,7 +14,9 @@ function draw() {
 	ellipse(windowWidth/2, windowHeight/2, abs(y-37), 37)
 	
 	translate(width / 2, height / 2);
-	
+	strokeWeight(y)
+	rotate((PI / 3.0) * x / 1000);
+	point(windowWidth/4, windowHeight/4);
 	y += (1 * countingUp);
 	strokeWeight(8)
 	rotate((PI / 3.0) * x / 100);
@@ -24,9 +26,9 @@ function draw() {
 	if (y == 75 || y == 5) {
 		countingUp *= -1;
 	}
+	rotate(PI);
+	point(windowWidth/15, windowHeight/15);
 	
-	strokeWeight(y)
-	point(windowWidth/4, windowHeight/4);
 	
 	x = x + 10
 }
