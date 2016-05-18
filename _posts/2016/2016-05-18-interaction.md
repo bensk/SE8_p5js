@@ -52,8 +52,9 @@ function draw() {
 }
 </script>
 
-> Extend yourself! Give the line a different `stroke` and `strokeWeight`
-> Are you seeing a whole bunch of lines? How can you draw _only one_?
+> Extend yourself! Give the line a different `stroke` and `strokeWeight`    
+>Are you seeing a whole bunch of lines? How can you draw _only one_?    
+> Can you "hang" a rectangle off the end of the line?    
 
 ### Back to the ~~Drawing board~~ Canvas
 Go back to either your snowman or your own drawing, and add variables. But sure to use:
