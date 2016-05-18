@@ -5,10 +5,10 @@ date: "2016-05-18 07:29"
 ---
 
 ## Do Now
-What is a variable?
-How did we create variables in Python?
-How did we create variables in JavaScript?
-Why do we user variables in code?
+What is a variable?    
+How did we create variables in Python?    
+How did we create variables in JavaScript?    
+Why do we user variables in code?    
 
 ## Built-in Variables in <span style="color: #ED1F5E">p5</span>
 We've actually seen a few variables in p5 already.
