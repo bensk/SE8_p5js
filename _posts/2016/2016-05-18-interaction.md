@@ -4,7 +4,7 @@ title: "Interaction"
 date: "2016-05-18 07:29"
 ---
 
-## Do Now
+## Do Now (In Google Classroom)
 What is a variable?    
 How did we create variables in Python?    
 How did we create variables in JavaScript?    
