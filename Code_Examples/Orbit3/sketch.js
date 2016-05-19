@@ -6,7 +6,7 @@ var y = 5
 var countingUp = 1;
 
 function draw() {
-  background(5)
+  background(map(mouseX, 0, width, 0, 255))
   fill('white')
   text("Mouse: " + mouseX + ", " + mouseY, 0, 10)
   text("Window: " + windowWidth + ", " + windowHeight, 0, 20)
