@@ -28,16 +28,11 @@ if (mouseIsPressed) {
 
 **Check:** What do you think `pmouseX` and `pmouseY` are?
 
-## Drawing App
-
-| Specification     | Points     |
-| :------------- | :-------------: |
-| Your `canvas` must resize to the window.            | 1|
-|Draw with either a shape (`rect()`, `ellipse()`, etc.) or a `line()` _in 🌈multiple colors🌈_.|   1|
-|Must be able to start **and** stop drawing ("pen up" and "pen down")|1|
-|**Total:**| __ / 3|
-
 ## Drawing in Multiple Colors
+
+To use the keyboard to interact with my sketch, I need to add a new function. So far, we've seen `function setup()` which is called when the program starts, and `function draw()` which runs on loop, forever.
+
+Now, we need `function keyTyped()`, which is called every time a key is pressed.
 
 ```javascript
 function keyTyped() {
@@ -56,6 +51,17 @@ var strokeColor = "black"
 ```
 
 This is called _initializing_ a variable– giving it an _initial_ or starting value, which we will then change.
+
+## Drawing App
+
+| Specification     | Points     |
+| :------------- | :-------------: |
+| Your `canvas` must resize to the window.            | 1|
+|Draw with either a shape (`rect()`, `ellipse()`, etc.) or a `line()` _in 🌈multiple colors🌈_.|   1|
+|Must be able to start **and** stop drawing ("pen up" and "pen down")|1|
+|**Total:**| __ / 3|
+
+
 
 ## <span class="mega-octicon octicon-rocket"></span> Push yourself for a 4!
 
