@@ -37,6 +37,26 @@ if (mouseIsPressed) {
 |Must be able to start **and** stop drawing ("pen up" and "pen down")|1|
 |**Total:**| __ / 3|
 
+## Drawing in Multiple Colors
+
+```javascript
+function keyTyped() {
+  if (key === 'b') {
+    strokeColor = 'black';
+  } else if (key === 'p') {
+    strokeColor = '#E32173';
+    weight = 10
+```
+
+The variable `strokeColor` is used inside my `function keyTyped()`, and I am also going to use it inside my `function Draw()`. that means I need to define it **outside** of **both** of those function. I can do this at the **top** of my code:
+
+```javascript
+var weight = 10
+var strokeColor = "black"
+```
+
+This is called _initializing_ a variable– giving it an _initial_ or starting value, which we will then change.
+
 ## <span class="mega-octicon octicon-rocket"></span> Push yourself for a 4!
 
 🎂 Draw me a birthday card!     
