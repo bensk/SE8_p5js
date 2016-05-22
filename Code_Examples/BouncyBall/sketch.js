@@ -18,11 +18,11 @@ function draw() {
 	strokeWeight(10)
 	rectMode(CENTER)
 	
-	if(mouseIsPressed){
-	ellipse(x,y,25,25)
+	if(keyIsPressed){
+	rect(x,y,25,25)
 	}
 	else{
-	rect(x, y, 25, 25)
+	ellipse(x, y, 25, 25)
 	}
 	
 	x = x + xDirection * speed
