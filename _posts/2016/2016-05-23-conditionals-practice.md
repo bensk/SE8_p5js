@@ -12,4 +12,4 @@ date: "2016-05-23 11:57"
 
 Like this:
 
-<iframe src="" width="600px" height="400px"></iframe>
+<iframe src="http://bsk.education/SE8_p5js/Code_Examples/left_right/index.html" width="100%" height="200px" style="border:none"></iframe>

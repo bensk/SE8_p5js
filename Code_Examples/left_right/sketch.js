@@ -3,7 +3,7 @@ function setup() {
 }
 
 function draw() {
-  background("#F5F2F0");
+  background("white");
   line(windowWidth/2,0,windowWidth/2,windowHeight)
   ellipse(mouseX,mouseY,50,50)
   if(mouseX>windowWidth/2){
