@@ -13,10 +13,18 @@ function setup() {
 function draw() {
 	background('white')
 	strokeWeight(20 - y / 20)
-	line(windowWidth / 2, 0, x, y)
+	
+	// line(windowWidth / 2, 0, x, y)
 	strokeWeight(10)
-	ellipse(x, y, 25, 25)
-
+	rectMode(CENTER)
+	
+	if(mouseIsPressed){
+	ellipse(x,y,25,25)
+	}
+	else{
+	rect(x, y, 25, 25)
+	}
+	
 	x = x + xDirection * speed
 	y = y + yDirection * speed
 	if (x >= width - 25 || x <= 0) {
