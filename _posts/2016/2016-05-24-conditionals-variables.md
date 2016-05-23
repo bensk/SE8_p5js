@@ -12,7 +12,7 @@ date: "2016-05-24 11:57"
 
 Like this:
 
-<iframe src="http://bsk.education/SE8_p5js/Code_Examples/left_right/index.html" width="100%" height="200px" style="border:none"></iframe>
+<iframe src="{{ site.baseurl }}/Code_Examples/left_right/index.html" width="100%" height="200px" style="border:none"></iframe>
 
 ---
 
@@ -41,6 +41,6 @@ Now, the ball hits the edge of the screen. What changes?
 | Your `canvas` must resize to the window.            | 1|
 | User created variables |   3 |
 | Conditionals for the left/right and top/bottom edge of the screen | 1 |
-|**Total:**| __ / 5|
-| Extension | Points |
+| **Extension** | ✱ |
 | Ball bounces using only **2** conditionals | 2 |
+|**Total:**| __ / 5|

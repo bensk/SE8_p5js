@@ -13,18 +13,22 @@ function setup() {
 function draw() {
 	background('white')
 	strokeWeight(20 - y / 20)
-	
+
 	// line(windowWidth / 2, 0, x, y)
 	strokeWeight(10)
 	rectMode(CENTER)
-	
+
 	if(keyIsPressed){
+	stroke('#D4171C')
 	rect(x,y,25,25)
+	noStroke()
+	textSize(18)
+	text("You pressed a key!",20,20)
 	}
 	else{
 	ellipse(x, y, 25, 25)
 	}
-	
+
 	x = x + xDirection * speed
 	y = y + yDirection * speed
 	if (x >= width - 25 || x <= 0) {
