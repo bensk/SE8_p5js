@@ -18,11 +18,29 @@ Like this:
 
 ## Conditionals & Variables
 
-Our next challenge is to make a sketch where a ~~ball~~ shape bounces around the screen. 
+Our next challenge is to make a sketch where a ~~ball~~ shape bounces around the screen.
+
+This is a more complicated than the sketches we've done so far, because we will be **defining** our own variables.
+
+To figure out what variables we need, think about what needs to **change** so a shape looks like it's bouncing. Let's look at it:
+
+<iframe src="{{ site.baseurl }}/Code_Examples/BouncyBall" width="100%" height="200px" style="border:solid"></iframe>
+
+A ball moves across the screen. What changes?
+
+1. The `x position` of the shape
+2. The `y position` of the shape
+
+Now, the ball hits the edge of the screen. What changes?
+
+3. The `x direction` – if the shape hits the left edge, it should go right. If it hits the right edge, it should go left.
+4. The `y direction` – if the shape hits the top, it should start moving down. If it hits the bottom, it should start moving up.
 
 | Specification     | Points     |
 | :------------- | :-------------: |
 | Your `canvas` must resize to the window.            | 1|
-|Draw with either a shape (`rect()`, `ellipse()`, etc.) or a `line()` _in 🌈multiple colors🌈_.|   1|
-|Must be able to start **and** stop drawing ("pen up" and "pen down")|1|
-|**Total:**| __ / 3|
+| User created variables |   3 |
+| Conditionals for the left/right and top/bottom edge of the screen | 1 |
+|**Total:**| __ / 5|
+| Extension | Points |
+| Ball bounces using only **2** conditionals | 2 |
