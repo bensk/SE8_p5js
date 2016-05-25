@@ -34,16 +34,35 @@ function draw() {
 2. Which line do you think makes the ellipse move? Why?
 3. Which line(s) do you think makes the ellipse start on the left side of the screen? Why?
 
+---
+
+## Incrementing Variables
+If we were in math class, and I wrote: `x = x + 1`, what would you say?     
+
+> "To solve `x = x + 1` subtract `x` from both sides, and you get `0=1`, which...makes no sense."
+
+You would be right. Good thing we're not in math class.
+
+<p class = "lead">In computer programming, <b>we can say <code>x = x+1</code></b>, and not only are we <b>correct</b>, it has a special name: <b>incrementing</b> a variable. </p>
+
+In the Do Now, our initial `x` value was `x = windowWidth / 2` and our initial `y` value was `y = windowHeight / 2`. This put our `ellipse` at the center of the screen. The we ran:
+
+```javascript
+x = x + 10 // What happens to the x position?
+```
+
+
+
 ## Back to Balls
 
-| Specification     | Points     |
-| :------------- | :-------------: |
-| Your `canvas` must resize to the window.            | 1|
-| User created variables for `x position`, `y position`, `x direction` and `y direction` |   3 |
-| Conditionals for the left/right and top/bottom edge of the screen | 1 |
-| **Extension** | ✱ |
-| Ball bounces using only **2** conditionals | 2 |
-|**Total:**| __ / 5|
+| Specification                                                                          | Points |
+|:---------------------------------------------------------------------------------------|:------:|
+| Your `canvas` must resize to the window.                                               |   1    |
+| User created variables for `x position`, `y position`, `x direction` and `y direction` |   3    |
+| Conditionals for the left/right and top/bottom edge of the screen                      |   1    |
+| **Extension**                                                                          |   ✱    |
+| Ball bounces using only **2** conditionals                                             |   2    |
+| **Total:**                                                                             | __ / 5 |
 
 
 
