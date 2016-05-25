@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "SWBAT Make Stuff Move"
-date: "2016-05-24 20:40"
+date: "2016-05-25 20:40"
 ---
 
 ## Do Now (In Google Classroom)
