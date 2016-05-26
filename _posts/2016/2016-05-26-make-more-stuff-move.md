@@ -16,7 +16,7 @@ What does it mean to **increment** a variable? What does it let us do?
 | Your `canvas` must resize to the window.                                               |   1    |
 | User created variables for `x position`, `y position`, `x direction` and `y direction` |   3    |
 | Conditionals for the left/right and top/bottom edge of the screen                      |   1    |
-|**New Stuff!**|!!|
+|**New Stuff!**|**!!**|
 |Make your ellipse change color when it hits the edge|1|
 |Add another shape (`ellipse()`, `triangle()`) and make it move separately| 1 |
 | **Extension**                                                                          |   ✱    |
