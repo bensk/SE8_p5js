@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Make More Stuff Move"
-date: "2016-05-25 21:28"
+date: "2016-05-26 21:28"
 ---
 
 ## Do Now (In...you know)
@@ -22,4 +22,4 @@ What does it mean to **increment** a variable? What does it let us do?
 | **Extension**                                                                          |   ✱    |
 |When a key is pressed either change the **shape** or the **size of the shape**  | 1 |
 | Ball bounces using only **2** conditionals                                             |   2    |
-| **Total:**                                                                             | __ / 5 |
+| **Total:**                                                                             | __ / 10 |
