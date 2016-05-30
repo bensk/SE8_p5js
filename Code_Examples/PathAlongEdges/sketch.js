@@ -14,7 +14,6 @@ function setup() {
 function draw() {
 	background('white')
 	print(speed, windowWidth / 2, windowHeight / 2)
-
 	noStroke()
 	fill(x / 2, y / 2, 128)
 	ellipse(x, y, 50, 50)
