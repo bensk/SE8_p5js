@@ -12,9 +12,8 @@ function setup() {
 }
 
 function draw() {
-
-	print(speed, windowWidth / 2, windowHeight / 2)
 	background('white')
+	print(speed, windowWidth / 2, windowHeight / 2)
 
 	noStroke()
 	fill(x / 2, y / 2, 128)
@@ -32,10 +31,6 @@ function draw() {
 	if (x <= 25) {
 		y = y - 1 * speed
 	}
-	// if (x >= windowWidth) {
-	// 		// } else if (y <= windowHeight - 25) {
-	// 		// 	y = y + 1 * speed
-	// }
 }
 
 function keyTyped() {
@@ -47,5 +42,5 @@ function keyTyped() {
 }
 
 function windowResized() {
-	resizeCanvas(windowWidth,windowHeight)
+	resizeCanvas(windowWidth, windowHeight)
 }
