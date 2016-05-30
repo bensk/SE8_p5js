@@ -33,7 +33,7 @@ function draw() {
 }
 
 function keyTyped() {
-	if (key == "+") {
+	if (key == "=") {
 		speed = speed + 5
 	} else if (key == "-") {
 		speed = speed - 5

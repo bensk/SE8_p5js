@@ -4,8 +4,6 @@ var fillBottom
 
 function setup() {
 	createCanvas(windowWidth, windowHeight)
-	
-	text("Hello",20,20)
 	fillTop = "white"
 	fillMiddle = "white"
 	fillBottom = "white"
@@ -13,34 +11,44 @@ function setup() {
 
 function draw() {
 background('white')
+textSize(18)
+fill('#2B3642')
 
 	if (mouseY < windowHeight / 3) {
-		fillTop = "green"
+		fillTop = "#FA3E27"
 		fillMiddle = "white"
 		fillBottom = 'white'
+		fill("#FA3E27")
+		text("Move your mouse up and down",40,mouseY)
 	} else if (mouseY < 2 * windowHeight / 3) {
 		fillTop = "white"
-		fillMiddle = "yellow"
+		fillMiddle = "#EDB538"
 		fillBottom = "white"
+		textSize(36)
+		fill("#EDB538")
+		text("Keep going...",40,mouseY)
 	} else if (mouseY < windowHeight) {
 		fillTop = "white"
 		fillMiddle = "white"
-		fillBottom = "red"
-		textSize(32)
-		text("Stop!", 100, 100)
+		fillBottom = "#25FD27"
+		textSize(72)
+		fill("#25FD27")
+		text("Go!",40,mouseY)
 	}
-	rect(windowWidth/2-10,windowHeight/2,20,1000)
+
+	fill('#F5F2F0')
+	rect(windowWidth/2-10,windowHeight/3,20,windowHeight)
 	rectMode(CENTER)
-	fill('grey')
-	
-	rect(windowWidth / 2, windowHeight / 2, 100, 200, 5, 5, 5, 5)
+	fill('#2B3642')
+
+	rect(windowWidth / 2, windowHeight / 3, 100, 200, 10, 10, 10, 10)
 		// Top Light
 	fill(fillTop)
-	ellipse(windowWidth / 2, windowHeight / 2 - 60, 50, 50)
+	ellipse(windowWidth / 2, windowHeight / 3 - 60, 50, 50)
 		// Middle Light
 	fill(fillMiddle)
-	ellipse(windowWidth / 2, windowHeight / 2, 50, 50)
+	ellipse(windowWidth / 2, windowHeight / 3, 50, 50)
 		// Bottom Light
 	fill(fillBottom)
-	ellipse(windowWidth / 2, windowHeight / 2 + 60, 50, 50)
+	ellipse(windowWidth / 2, windowHeight / 3 + 60, 50, 50)
 }
