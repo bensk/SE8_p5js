@@ -10,9 +10,17 @@ Create this "traffic light" in p5:
 
 <iframe src="{{ site.baseurl }}/Code_Examples/TrafficLight" width="100%" height="400px" style="border:solid 1px"></iframe>
 
-It must be able to "light" up in three different colors **one at a time**.
+**Rubric**
 
-Only one light should be lit at a time.
-It's your choice how to activate the lights. Mine are based off `mouseY`.
+|Specification   |Points   |
+|---|:---:|
+|3 ellipses, each light up different colors   |  3 |
+| It must be able to "light" up in three different colors **one at a time**  |  1 |
+|Only one light should be lit at a time   |  1 |
+|  Lights are **conditionally** activated[^1] | 1  |
+|**Total**|6|
 
-You could use a click, `mouseX`, your keyboard...whatever you want.
+
+
+
+[^1]: It's your choice how to activate the lights. Mine are based off `mouseY`. You could use a click, `mouseX`, your keyboard...whatever you want.
