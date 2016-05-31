@@ -20,6 +20,7 @@ function draw() {
 	ellipse(x, y, 50, 50)
 	fill(fill2)
 	ellipse(windowWidth - x, windowHeight - y, 50, 50)
+	triangle(x,y,windowWidth,windowHeight,0,0)
 	x = x + xDirection * 10
 	y = y + yDirection * 10
 	if (x < 0 || x > windowWidth) {
