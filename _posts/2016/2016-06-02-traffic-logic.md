@@ -5,7 +5,7 @@ date: "2016-06-02 16:38"
 ---
 
 ## Do Now (Google Classroom)
-How can you make an ellipse that ALWAYS appears 20px above the middle of the canvas?
+How can you make an ellipse that _ALWAYS_ appears 20px above the middle of the canvas?
 
 ![]({{ site.baseurl }}/images/20pixels.png)
 
