@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Traffic Logic"
+title: "AND"
 date: "2016-06-02 16:38"
 ---
 
@@ -23,7 +23,7 @@ The middle of the screen is `windowHeight/2`, our ellipse is `20px` above that, 
 Which means the top of my ellipse is `windowHeight/2-70`.
 The bottom of my ellipse is just `windowHeight/2-20`.
 
-> If your ellipse is not 50px tall, your numbers will be different. That's fine. 
+> If your ellipse is not 50px tall, your numbers will be different. That's fine.
 
 So, I want a conditional fill that is only activate when `mouseY` is **greater than**  `windowHeight/2-70` and **less than** `windowHeight/2-20`. Wouldn't it be nice if I could somehow combine
 
@@ -56,6 +56,19 @@ if(mouseY>windowHeight/2-70 && mouseY<windowHeight/2-20){
   	fillColor = 'white'
   }
 ```
+
+## Operators in <span style="color: #ED1F5E">p5</span>
+We've seen **operators** before:
+
+| Operator | Description              | Example   |
+|:--------:|:-------------------------|:----------|
+|   ===    | equal                    | `x === 3` |
+|    !=    | not equal                | `x != 8`  |
+|    >     | greater than             | `x > 42`  |
+|    <     | less than                | `x < 42`  |
+|    >=    | greater than or equal to | `x >= 42` |
+|    <=    | less than or equal to    | `x <= 42` |
+
 
 Now go forth and make the most beautiful <span style="color: #ED1F5E">p5</span> traffic light that anyone has ever seen.
 
