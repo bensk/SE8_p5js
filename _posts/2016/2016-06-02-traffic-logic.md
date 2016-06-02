@@ -69,12 +69,38 @@ We've seen **operators** before:
 |    >=    | greater than or equal to | `x >= 42` |
 |    <=    | less than or equal to    | `x <= 42` |
 
+Now we have two more:
+
+|   Operator   | Description | Example                                                |
+|:------------:|:------------|:-------------------------------------------------------|
+| &#124;&#124; | or          | `(x>windowWidth || x<0)`                               |
+|      &&      | and         | `mouseY>windowHeight/2-70 && mouseY<windowHeight/2-20` |
+
+<script type="text/p5" data-autoplay data-preview-width="200" data-preview-height="800">
+var fillColor = 'white'
+
+function setup() {
+  createCanvas(windowWidth,windowHeight )
+
+}
+
+function draw() {
+	background('white')
+  line(0,windowHeight/2,windowWidth,windowHeight/2)
+  fill(fillColor)
+  ellipse(windowWidth/2,windowHeight/2-45,50,50)
+  if(mouseY>windowHeight/2-70 && mouseY<windowHeight/2-20){
+  	fillColor = 'blue'
+  } else {
+  	fillColor = 'white'
+  }
+}
+</script>
+
 
 Now go forth and make the most beautiful <span style="color: #ED1F5E">p5</span> traffic light that anyone has ever seen.
 
 ## Traffic Light
-
-Create this "traffic light" in p5:
 
 <iframe src="{{ site.baseurl }}/Code_Examples/TrafficLight" width="100%" height="400px" style="border:solid 1px"></iframe>
 
