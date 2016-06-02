@@ -13,12 +13,17 @@ When you're done answering, return to your [Traffic Light](http://bsk.education/
 
 ---
 
-## && then some...
+## `&&` then some...
 What if we want to light up the ellipse ONLY when our mouse is between the top and bottom of the ellipse?
 
-Well, what's the of our ellipse?
+Well, where is the **top** of our ellipse?
 
-The middle of the screen is `windowHeight/2`, our ellipse is `20px` above that, and my ellipse is `50px` tall. Which means the top of my ellipse is `windowHeight/2-70`. The bottom of my ellipse is just `windowHeight/2-20`.
+The middle of the screen is `windowHeight/2`, our ellipse is `20px` above that, and my ellipse is `50px` tall.
+
+Which means the top of my ellipse is `windowHeight/2-70`.
+The bottom of my ellipse is just `windowHeight/2-20`.
+
+> If your ellipse is not 50px tall, your numbers will be different. That's fine. 
 
 So, I want a conditional fill that is only activate when `mouseY` is **greater than**  `windowHeight/2-70` and **less than** `windowHeight/2-20`. Wouldn't it be nice if I could somehow combine
 
