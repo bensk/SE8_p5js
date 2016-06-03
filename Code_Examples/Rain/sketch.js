@@ -1,3 +1,4 @@
+
 var x
 var y
 var width
@@ -32,14 +33,14 @@ function draw() {
     balls[i].move();
     balls[i].display();
   }
-  
+  // this.speed = this.speed * 9.81
 }
 
 function Ball() {
   this.x = random(0,windowWidth);
   this.y = random(0,windowHeight);
   this.diameter = width;
-  this.speed = 10;
+  this.speed = 20;
 
   this.move = function() {
     // this.x += random(-this.speed, this.speed);
