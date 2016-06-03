@@ -46,7 +46,7 @@ stroke('#E32173')
   point(windowWidth / 30, windowHeight / 30);
 
 
-  x = x + 10
+  x = x + 20
  
 }
 
