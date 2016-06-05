@@ -5,29 +5,36 @@ var speed
 
 function setup() {
 	createCanvas(windowWidth, windowHeight)
-	x = 25
-	y = 25
-	speed = 10
+	x = 30
+	y = 30
+	speed = 3
 
 }
 
 function draw() {
 	background('white')
-	print(speed, windowWidth / 2, windowHeight / 2)
+
 	noStroke()
-	fill(x / 2, y / 2, 128)
-	ellipse(x, y, 50, 50)
-	if (y <= 25) {
+
+	textSize(24)
+
+	text("Moving around the edge", windowWidth / 2, windowHeight / 2 - 32)
+
+	text("x=" + x + " | " + "y = " + y, windowWidth / 2, windowHeight / 2)
+	textSize(32)
+	text("🤖", x, y)
+		// ellipse(x, y, 50, 50)
+	if (y <= 30) {
 
 		x = x + 1 * speed
 	}
-	if (y >= windowHeight - 25) {
+	if (y >= windowHeight - 10) {
 		x = x - 1 * speed
 	}
-	if (x >= windowWidth - 25) {
+	if (x >= windowWidth - 40) {
 		y = y + 1 * speed
 	}
-	if (x <= 25) {
+	if (x <= 5) {
 		y = y - 1 * speed
 	}
 }
