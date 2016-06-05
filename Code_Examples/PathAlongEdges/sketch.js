@@ -2,16 +2,24 @@ var x
 var y
 var speed
 
+var slider;
+
 
 function setup() {
 	createCanvas(windowWidth, windowHeight)
 	x = 30
 	y = 30
 	speed = 3
+	slider = createSlider(-30, 30, 5);
+    slider.position(windowWidth/2, windowHeight/2);
+    slider.style('width', '180px');
 
 }
 
 function draw() {
+
+	var speed = slider.value();
+
 	background('white')
 
 	noStroke()
@@ -20,7 +28,7 @@ function draw() {
 
 	text("Moving around the edge", windowWidth / 2, windowHeight / 2 - 32)
 
-	text("x=" + x + " | " + "y = " + y, windowWidth / 2, windowHeight / 2)
+	text("Speed = " + speed + " | x=" + x + " | " + "y = " + y  , windowWidth / 2, windowHeight / 2)
 	textSize(32)
 	text("🤖", x, y)
 		// ellipse(x, y, 50, 50)
