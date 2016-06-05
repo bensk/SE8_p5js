@@ -1,64 +1,64 @@
-
 var x
 var y
 var width
 var height
-var balls = []
+var drops = []
 
 function setup() {
-  createCanvas(windowWidth, windowHeight)
-  x = windowWidth / 2
-  y = windowHeight / 2
-  width = 10
-  height = 10
-   for (var i=0; i<100; i++) {
-    balls.push(new Ball());
-  }
-  // ball = new Ball()
-  // ball1 = new Ball()
+	createCanvas(windowWidth, windowHeight)
+	x = windowWidth / 2
+	y = windowHeight / 2
+	width = 10
+	height = 10
+	for (var i = 0; i < 100; i++) {
+		drops.push(new Drop());
+	}
+	// ball = new Ball()
+	// ball1 = new Ball()
 }
 
 function draw() {
-  background('white')
-  // ellipse(x, y, width, height)
-  // ellipse(y,x,width,height)
-  // ellipse(x,x,width,height)
-  // ball.display()
-  // ball.move()
-  // ball1.display()
-  // ball1.move()
-  textSize(64)
-  text("☂️",mouseX-30,mouseY)
-  for (var i=0; i<balls.length; i++) {
-    balls[i].move();
-    balls[i].display();
-  }
-  // this.speed = this.speed * 9.81
+	background('white')
+		// ellipse(x, y, width, height)
+		// ellipse(y,x,width,height)
+		// ellipse(x,x,width,height)
+		// ball.display()
+		// ball.move()
+		// ball1.display()
+		// ball1.move()
+	textSize(64)
+	text("☂️", mouseX - 30, mouseY)
+	for (var i = 0; i < drops.length; i++) {
+		drops[i].move();
+		drops[i].display();
+	}
+	print(drops)
+		// this.speed = this.speed * 9.81
 }
 
-function Ball() {
-  this.x = random(0,windowWidth);
-  this.y = random(0,windowHeight);
-  this.diameter = width;
-  this.speed = 20;
+function Drop() {
+	this.x = random(0, windowWidth);
+	this.y = random(0, windowHeight);
 
-  this.move = function() {
-    // this.x += random(-this.speed, this.speed);
-    // this.y += random(-this.speed, this.speed);
-    
-    
-    if (this.y < windowHeight) {
-    this.y = this.y + 1*this.speed
-    this.x = this.x + random(-3,3)
-    this.diameter = this.diameter+1
-  } else {
-    this.y = 0
-    this.diameter = 10
-  }
-  };
+	this.speed = 20;
 
-  this.display = function() {
-    textSize(32)
-    text("💧",this.x,this.y)
-  };
+	this.move = function() {
+		// this.x += random(-this.speed, this.speed);
+		// this.y += random(-this.speed, this.speed);
+
+
+		if (this.y < windowHeight) {
+			this.y = this.y + 1 * this.speed
+			this.x = this.x + random(-3, 3)
+
+		} else {
+			this.y = 0
+
+		}
+	};
+
+	this.display = function() {
+		textSize(32)
+		text("💧", this.x, this.y)
+	};
 }
