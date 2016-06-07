@@ -1,39 +1,42 @@
-var x;
-var y;
-var xDirection = 1;
-var yDirection = 1;
-var speed = 10;
+var x
+var y
+var speed
+var slider;
 
 function setup() {
-	createCanvas(windowWidth, windowHeight)
-	x = random(0, width)
-	y = random(0, height)
+  createCanvas(windowWidth, windowHeight)
+  x = windowWidth / 2
+  y = 30
+  speed = 3
+    // create a slider we can drag, from -30 to 30 and starting at 0
+  slider = createSlider(-30, 30, 0);
+  // set the position of the slider on the screen
+  slider.position(windowWidth / 2 - 90, 90);
+  // set the size of the slider
+  slider.style('width', '180px');
 }
 
 function draw() {
-	background('white')
-	strokeWeight(20 - y / 20)
-
-	// line(windowWidth / 2, 0, x, y)
-	strokeWeight(10)
-	rectMode(CENTER)
-
-	if(keyIsPressed){
-	stroke('#D4171C')
-	rect(x,y,25,25)
-	noStroke()
-	textSize(18)
-	text("You pressed a key!",20,20)
-	}
-	else{
-	ellipse(x, y, 25, 25)
-	}
-
-	x = x + xDirection * speed
-	y = y + yDirection * speed
-	if (x >= width - 25 || x <= 0) {
-		xDirection = xDirection * -1;
-	} else if (y >= height || y <= 0) {
-		yDirection = yDirection * -1;
-	}
+  // We need to make a variable for the slider's value...
+  var speed = slider.value();
+  background('white')
+  textSize(32)
+  text("🤖", x, y)
+    // ... so that we can move the robot
+  if (y<=50) {
+    x = x + 1*speed
+  } if (x>=windowWidth-50){
+    y = y+1*speed
+  }
 }
+
+// if x is greater than or equal to windowWidth, 
+// y should increase x stays the same
+// if y is greater than or equal to windowHeight, 
+// y should stays the same, x decreases
+// x stays the same, y decreases
+
+// x gets bigger, y stays the same
+// y gets bigger, x stays the same
+// x gets smaller, y stays the same
+// y gets smaller, x stays the same
