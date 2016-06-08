@@ -22,4 +22,8 @@ Now, we're going to see if we can be more specific in our pseudocode, by startin
 
 In your code, you will have some variables for the `x` and `y` position of the emoji. You also have the built-in variables of `windowWidth` and `windowHeight` to know where the edges of the screen are.
 
-Underneath you pseudocode, write yourself a comment for how to start doing this in <span style="color: #ED1F5E">p5</span>
+Underneath you pseudocode, write comments for how to go from pseudocode to <span style="color: #ED1F5E">p5</span> code.
+
+| "Go to the right until you hit the edge of the screen"                                                                                      |
+|:--------------------------------------------------------------------------------------------------------------------------------------------|
+| // <code>y</code> stays close to top ( something like <code>y<=25</code>), <code>x</code> should move to the right (<code>x = x + 1</code>) |
