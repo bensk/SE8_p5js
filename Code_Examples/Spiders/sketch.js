@@ -27,7 +27,7 @@ function draw() {
 		// ball1.display()
 		// ball1.move()
 	textSize(64)
-	text("☂️", mouseX - 30, mouseY)
+// 	text("☂️", mouseX - 30, mouseY)
 	for (var i = 0; i < drops.length; i++) {
 		drops[i].move();
 		drops[i].display();
