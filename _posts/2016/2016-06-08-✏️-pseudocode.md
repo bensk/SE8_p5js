@@ -7,12 +7,20 @@ date: "2016-06-08 16:06"
 ## Do Now
 Write down instructions to walk around the edge of the room.
 
-## Pseudocode
-Writing out simplified instructions that can be turned into code.
+## Mini Lesson
+**Pseudocode** <sup>(noun)</sup> Simplified instructions that can be turned into code.
 
 Remember the 🍞 PB&J?
 
-Write out pseudocode for the four conditionals needed to make a path around the screen. Pretend you're talking to the emoji:
+Pseudocode will go in our `// comments` and are helpful for reminders from our past self to our future self.
+
+Let's write out pseudocode for the four conditionals needed to make a path around the screen.
+
+## Pseudocode Practice Make Pseudoperfect
+
+![]({{ site.baseurl }}/images/pathAroundEdges.png)
+
+Pretend you're talking to the emoji:
 
 > "Go to the right until you hit the edge of the screen"
 
