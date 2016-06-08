@@ -35,3 +35,12 @@ Underneath you pseudocode, write comments for how to go from pseudocode to <span
 | "Go to the right until you hit the edge of the screen"                                                                                      |
 |:--------------------------------------------------------------------------------------------------------------------------------------------|
 | // <code>y</code> stays close to top ( something like <code>y<=25</code>), <code>x</code> should move to the right (<code>x = x + 1</code>) |
+
+## Our Notes
+
+```js
+// if y <= 32, x = x + 1
+// if x >= windowWidth - 10, y = y + 1
+// if y >= windowHeight - 32, x = x - 1
+// if x <= 32, y = y - 1
+```
