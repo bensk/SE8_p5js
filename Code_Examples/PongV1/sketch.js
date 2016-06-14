@@ -15,8 +15,11 @@ function draw() {
   noCursor()
   background('white')
   textSize(32)
+  fill('black')
   text(score, 40, 40)
+  fill("#19C3BC")
   ellipse(x, y, 20, 20)
+  fill('#40123D')
   rect(windowWidth-50, mouseY, 20, 80)
   x = x + xDirection * speed
   y = y + yDirection * speed
@@ -33,4 +36,8 @@ function draw() {
     y = random(0, windowHeight)
     score = 0
   }
+}
+
+function windowResized(){
+  resizeCanvas(windowWidth,windowHeight)
 }
