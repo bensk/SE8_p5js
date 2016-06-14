@@ -40,7 +40,7 @@ function Drop() {
 	this.x = random(0, windowWidth);
 	this.y = random(0, windowHeight);
 
-	this.speed = 20;
+	this.speed = 10;
 
 	this.move = function() {
 		// this.x += random(-this.speed, this.speed);
