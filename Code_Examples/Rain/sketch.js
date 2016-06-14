@@ -47,18 +47,18 @@ function Drop() {
 		// this.y += random(-this.speed, this.speed);
 
 
-		if (this.y > 0) {
-			this.y = this.y - 1 * this.speed
+		if (this.y <windowHeight) {
+			this.y = this.y + 1 * this.speed
 			this.x = this.x + random(-3, 3)
 
 		} else {
-			this.y = windowHeight
+			this.y = 0
 
 		}
 	};
 
 	this.display = function() {
 		textSize(32)
-		text("🕷", this.x, this.y)
+		text("💧", this.x, this.y)
 	};
 }
