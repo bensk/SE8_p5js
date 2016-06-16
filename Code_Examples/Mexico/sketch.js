@@ -16,13 +16,12 @@ function draw() {
   fill('brown')
   textAlign('center')
   
-  textSize(144)
-  text("🌵", windowWidth / 2, windowHeight / 2+100)
-  
-  textSize(144)
+  textSize(120)
+  text("🌵", windowWidth / 2, windowHeight / 2+40)
+  textSize(120)
   text("🐥", windowWidth / 2, windowHeight / 2)
-  textSize(72)
-  text("🐍",windowWidth/2,windowHeight/2)
+  textSize(36)
+  text("🐍",windowWidth/2,windowHeight/2-30)
   
 }
 

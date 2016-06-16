@@ -20,10 +20,10 @@ function draw() {
   fill("#19C3BC")
   ellipse(x, y, 20, 20)
   fill('#40123D')
-  rect(windowWidth-50, mouseY, 20, 80)
+  rect(windowWidth-50, mouseY, 20, 900)
   x = x + xDirection * speed
   y = y + yDirection * speed
-  if (x >= windowWidth-50 && y >= mouseY && y <= mouseY + 80) { // removed || so score would work correctly
+  if (x >= windowWidth-50 && y >= mouseY && y <= mouseY + 900) { // removed || so score would work correctly
     xDirection = xDirection * -1;
     score = score + 1
   } else if (x <= 0) {
