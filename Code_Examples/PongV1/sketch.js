@@ -12,6 +12,7 @@ function setup() {
 }
 
 function draw() {
+  print(score)
   noCursor()
   background('white')
   textSize(32)
