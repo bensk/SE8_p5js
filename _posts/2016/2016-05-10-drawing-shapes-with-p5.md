@@ -1,7 +1,7 @@
 ---
-layout: "post"
-title: "Drawing Shapes with p5"
-date: "2016-05-10 18:18"
+title: Drawing Shapes with p5
+date: 2016-05-10 18:18:00 Z
+layout: post
 ---
 
 ## <span style="color: #ED1F5E">p5</span> IDE

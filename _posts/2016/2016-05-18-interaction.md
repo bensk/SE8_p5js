@@ -1,7 +1,7 @@
 ---
-layout: "post"
-title: "Interaction"
-date: "2016-05-18 07:29"
+title: Interaction
+date: 2016-05-18 07:29:00 Z
+layout: post
 ---
 
 ## Do Now (In Google Classroom)

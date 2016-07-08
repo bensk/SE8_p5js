@@ -1,7 +1,7 @@
 ---
-layout: "post"
-title: "Make More Stuff Move"
-date: "2016-05-27 21:28"
+title: Make More Stuff Move
+date: 2016-05-27 21:28:00 Z
+layout: post
 ---
 
 ## Do Now (In...you know)

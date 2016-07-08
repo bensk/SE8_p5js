@@ -1,7 +1,7 @@
 ---
-layout: "post"
-title: "Conditionals & Variables"
-date: "2016-05-24 11:57"
+title: Conditionals & Variables
+date: 2016-05-24 11:57:00 Z
+layout: post
 ---
 
 ## Do Now (in <span style="color: #ED1F5E">p5</span>)

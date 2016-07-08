@@ -1,6 +1,6 @@
 ---
-layout: "page"
 title: "⭐️ p5 Cheat Sheet ⭐️"
+layout: page
 ---
 
 <!-- ### ⚠️ Todo before publishing

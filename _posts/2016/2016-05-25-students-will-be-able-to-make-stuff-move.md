@@ -1,7 +1,7 @@
 ---
-layout: "post"
-title: "SWBAT Make Stuff Move"
-date: "2016-05-25 20:40"
+title: SWBAT Make Stuff Move
+date: 2016-05-25 20:40:00 Z
+layout: post
 ---
 
 ## Do Now (In Google Classroom)

@@ -1,7 +1,7 @@
 ---
-layout: "post"
 title: "✏️ Pseudocode"
-date: "2016-06-08 16:06"
+date: 2016-06-08 16:06:00 Z
+layout: post
 ---
 
 ## Do Now

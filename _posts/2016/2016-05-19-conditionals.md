@@ -1,7 +1,7 @@
 ---
-layout: "post"
-title: "Build a Drawing App"
-date: "2016-05-19 17:51"
+title: Build a Drawing App
+date: 2016-05-19 17:51:00 Z
+layout: post
 ---
 
 ## Do Now (in <span style="color: #ED1F5E">p5</span>)

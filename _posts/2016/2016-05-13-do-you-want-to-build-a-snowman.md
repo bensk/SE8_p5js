@@ -1,7 +1,7 @@
 ---
-layout: "post"
-title: "Do You Want to Build a ⛄️?"
-date: "2016-05-13 07:38"
+title: Do You Want to Build a ⛄️?
+date: 2016-05-13 07:38:00 Z
+layout: post
 ---
 
 ## Do Now

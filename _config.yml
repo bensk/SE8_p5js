@@ -1,48 +1,39 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-# relative_permalinks: true
-
-# Setup
-title:               SE8 p5.js
-tagline:
-url:                 http://bsk.education/SE8_p5js
-paginate:            1
-baseurl:             "/SE8_p5js"
-
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
+---
+title: SE8 p5.js
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+permalink: pretty
+tagline: 
+url: http://bsk.education/SE8_p5js
+paginate: 1
+baseurl: "/SE8_p5js"
 sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-# About/contact
+  sass_dir: _sass
+  style: :compressed
 author:
-  name:              Ben Samuels-Kalow
-  url:               http://bsk.education
-  email:             bsk@ms224.org
-
-# Custom vars
-version:             2.0.0
+  name: Ben Samuels-Kalow
+  url: http://bsk.education
+  email: bsk@ms224.org
+version: 2.0.0
 github:
-  repo:              https://github.com/bensk
-
-# wyyyyyy
+  repo: https://github.com/bensk
 gems:
-    - jemoji
-    - jekyll-archives
-    - jekyll-paginate
-
+- jemoji
+- jekyll-archives
+- jekyll-paginate
 jekyll-archives:
   enabled: []
-  layout: 'archive'
+  layout: archive
   permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
-
+    year: "/:year/"
+    month: "/:year/:month/"
+    day: "/:year/:month/:day/"
+    tag: "/tag/:name/"
+    category: "/category/:name/"
 future: true
