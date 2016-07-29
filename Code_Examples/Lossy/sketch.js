@@ -14,9 +14,9 @@ function draw() {
     background('white')
     fill('black')
     textSize(32)
-    text("BJC Pluralize Lab", 10, 30)
+    text("Lossy!", 10, 30)
     textSize(12)
-    text("Enter a noun!", 10, 50)
+    text("Enter some words!", 10, 50)
     text("⏬⏬⏬", 10, 70)
     var noun = input.value();
     textSize(72)
