@@ -1,5 +1,5 @@
 ---
-title: SE8 p5.js
+title: Creative Computing
 timezone: UTC
 collections:
   posts:
@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
 permalink: pretty
-tagline: 
+tagline:
 url: http://bsk.education/SE8_p5js
 paginate: 1
 baseurl: "/SE8_p5js"
