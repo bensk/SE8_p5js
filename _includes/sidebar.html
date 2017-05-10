@@ -29,9 +29,10 @@
 <!-- Post nav -->
 <hr />
 <h2>Lessons</h2>
-{% for post in site.posts %}
+{% for post in site.posts reversed %}
     <!-- <p class="lead">{{ post.date | date: '%B %d, %Y' }}<br> -->
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+
+     <h4> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
 
   {% endfor %}
 </p>
