@@ -1,6 +1,6 @@
 ---
 title: "✏️ Pseudocode"
-date: 2016-06-08 16:06:00 Z
+date: 2017-06-08 16:06:00 Z
 layout: post
 ---
 

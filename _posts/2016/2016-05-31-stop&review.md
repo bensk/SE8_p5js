@@ -1,6 +1,6 @@
 ---
 title: Stop & Go & Review
-date: 2016-05-31 16:42:00 Z
+date: 2017-05-31 16:42:00 Z
 layout: post
 ---
 
@@ -43,7 +43,7 @@ function draw() {
 
 ---
 
-## Traffic Light 
+## Traffic Light
 
 Create this "traffic light" in p5:
 

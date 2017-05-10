@@ -1,6 +1,6 @@
 ---
 title: Conditionals & Variables
-date: 2016-05-24 11:57:00 Z
+date: 2017-05-24 11:57:00 Z
 layout: post
 ---
 
