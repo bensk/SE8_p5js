@@ -4,15 +4,11 @@ date: 2017-05-10 18:18:00 Z
 layout: post
 ---
 
-## <span style="color: #ED1F5E">p5</span> IDE
-<span class="mega-octicon octicon-search"></span> for <span style="color: #ED1F5E">p5</span>
-![]({{ site.baseurl }}/images/p5icon.png)
+## <span style="color: #ED1F5E">p5</span> Editor   
+You can write p5 anywhere your can write HTML/CSS/JS. You can use Codepen, if you want.
 
-You should see this:
+I recommend using the [p5 Web Editor](http://alpha.editor.p5js.org/). 
 
-![]({{ site.baseurl }}/images/p5Editor.png)
-
-This is an IDE (Integrated Development Environment). We used **PyCharm** for **Python**, and we will use **<span style="color: #ED1F5E">p5</span>** for, well...**<span style="color: #ED1F5E">p5</span>**.
 
 ## Fun With Shapes
 
