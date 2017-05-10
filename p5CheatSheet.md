@@ -1,5 +1,5 @@
 ---
-title: "⭐️ p5 Cheat Sheet ⭐️"
+title: "✨ p5 ✱ Reference Sheet ✨"
 layout: page
 ---
 
