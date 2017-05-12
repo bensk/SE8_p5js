@@ -19,9 +19,9 @@ function draw() {
     textSize(120)
     text("🌵", windowWidth / 2, windowHeight / 2 + 40)
     textSize(120)
-    text("🐥", windowWidth / 2, windowHeight / 2)
+    text("🦅", windowWidth / 2 + 50, windowHeight / 2)
     textSize(36)
-    text("🐍", windowWidth / 2, windowHeight / 2 - 30)
+    text("🐍", windowWidth / 2, windowHeight / 2 )
 
 }
 
