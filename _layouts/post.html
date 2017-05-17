@@ -4,7 +4,7 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date"><!-- Whitespace added for readability -->
+  <!-- <span class="post-date">
 {% assign d = page.date | date: "%-d"  %}
 {{ page.date | date: "%B" }}
 {% case d %}
@@ -13,8 +13,8 @@ layout: default
   {% when '3' or '23' %}{{ d }}<sup>rd</sup>
   {% else %}{{ d }}<sup>th</sup>
   {% endcase %}
-<!-- {{ page.date | date: "%Y" }} -->
-</span>
+
+</span> -->
   {{ content }}
 </div>
 
