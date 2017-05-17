@@ -6,7 +6,7 @@ layout: post
 
 ## Do Now
 ✱ Create a canvas that is **500px** wide and **500px** tall.    
-✱ Create two different size `triangle()`.
+✱ Create two different size `triangle()`.    
 ✱ Give each `triangle()` a different color.
 
 <!-- ✱ Draw an `ellipse()` inside of another ellipse.    
