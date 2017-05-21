@@ -1,11 +1,26 @@
 ---
-title: Conditionals & Variables
-date: 2017-05-24 11:57:00 Z
-layout: post
+layout: "post"
+title: "Conditionals"
+date: "2017-05-22 12:14"
 ---
 
-## Do Now (in <span style="color: #ED1F5E">p5</span>)
+## Do Now
+1. Make an `ellipse()` that follows your mouse.
+2. **Before** your `ellipse()`, add this line:
 
+```javascript
+if (mouseX > 100) {
+    text("what just happened?", 200, 200)
+}
+```
+
+What happened? Why do you think that's happening?
+
+## Conditionals
+Conditionals in p5 work exactly like JavaScript conditionals. Thanks to our [built-in variables](http://bsk.education/SE8_p5js/2017/05/18/interaction/), we can quickly make sketches that **change** depending on where our mouse is.
+
+
+## I'm on one side...
 1. Create a canvas that is the size of the screen
 2. Create a shape (`ellipse()`, `rect()`, etc) that follows your mouse
 3. Write a conditional so that the `fill()` of the shape changes if the mouse is on the **left** or **right** side of the screen.
