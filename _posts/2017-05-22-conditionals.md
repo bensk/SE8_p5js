@@ -31,6 +31,24 @@ Like this:
 
 ---
 
+## Traffic Light
+
+Create this "traffic light" in p5:
+
+<iframe src="{{ site.baseurl }}/Code_Examples/TrafficLight" width="100%" height="400px" style="border:solid 1px"></iframe>
+
+**Rubric**
+
+| Specification                                                             | Points |
+|:--------------------------------------------------------------------------|:------:|
+| 3 ellipses, each light up different colors                                |   3    |
+| It must be able to "light" up in three different colors **one at a time** |   1    |
+| Only one light should be lit at a time                                    |   1    |
+| Lights are **conditionally** activated[^1]                                |   1    |
+| **Total**                                                                 |   6    |
+
+---
+
 ## Conditionals & Variables
 
 Our next challenge is to make a sketch where a ~~ball~~ shape bounces around the screen.
