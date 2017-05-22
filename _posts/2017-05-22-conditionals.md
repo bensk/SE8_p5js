@@ -5,8 +5,8 @@ date: "2017-05-22 12:14"
 ---
 
 ## Do Now
-1. Make an `ellipse()` that follows your mouse.
-2. **Before** your `ellipse()`, add this line:
+1. Make an `ellipse()` that **follows** your mouse.
+2. **After** your `ellipse()`, add this line:
 
 ```javascript
 if (mouseX > 100) {
