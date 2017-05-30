@@ -6,8 +6,8 @@ layout: post
 
 ## Do Now (in <span style="color: #ED1F5E">p5</span>)
 
-1. Make an `ellipse()` that follows your mouse.
-2. **Before** your `ellipse()`, add this line:
+1. Make an shape (`ellipse()` or `rect()` that follows your mouse.
+2. **Before** your shape, add this line:
 
 ```javascript
 if (mouseIsPressed)
