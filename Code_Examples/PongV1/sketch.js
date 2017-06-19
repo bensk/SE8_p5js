@@ -24,6 +24,7 @@ function draw() {
   rect(windowWidth-50, mouseY, 20, 200)
   x = x + xDirection * speed
   y = y + yDirection * speed
+  // made paddle smaller
   if (x >= windowWidth-50 && y >= mouseY && y <= mouseY + 200) { // removed || so score would work correctly
     xDirection = xDirection * -1;
     score = score + 1
